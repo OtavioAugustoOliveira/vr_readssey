@@ -9,10 +9,10 @@ public class GameStartMenu : MonoBehaviour
     public GameObject mainMenu;
     public GameObject options;
     public GameObject about;
+    public GameObject menuLeitura;
 
     [Header("Main Menu Buttons")]
     public Button startButton;
-    public Button testeButton;
     public Button optionButton;
     public Button aboutButton;
     public Button quitButton;
@@ -26,7 +26,6 @@ public class GameStartMenu : MonoBehaviour
 
         //Hook events
         startButton.onClick.AddListener(StartGame);
-        testeButton.onClick.AddListener(Teste);
         optionButton.onClick.AddListener(EnableOption);
         aboutButton.onClick.AddListener(EnableAbout);
         quitButton.onClick.AddListener(QuitGame);
@@ -46,11 +45,10 @@ public class GameStartMenu : MonoBehaviour
     {
         HideAll();
         SceneTransitionManager.singleton.GoToSceneAsync(1);
-    }
-    public void Teste()
-    {
-        HideAll();
-        SceneTransitionManager.singleton.GoToSceneAsync(2);
+        //mainMenu.SetActive(false);
+        //options.SetActive(false);
+        //about.SetActive(false);
+        //menuLeitura.SetActive(true);
     }
 
     public void HideAll()
@@ -58,6 +56,7 @@ public class GameStartMenu : MonoBehaviour
         mainMenu.SetActive(false);
         options.SetActive(false);
         about.SetActive(false);
+        menuLeitura.SetActive(false);
     }
 
     public void EnableMainMenu()
@@ -65,17 +64,21 @@ public class GameStartMenu : MonoBehaviour
         mainMenu.SetActive(true);
         options.SetActive(false);
         about.SetActive(false);
+        menuLeitura.SetActive(false);
     }
     public void EnableOption()
     {
         mainMenu.SetActive(false);
         options.SetActive(true);
         about.SetActive(false);
+        menuLeitura.SetActive(false);
     }
     public void EnableAbout()
     {
         mainMenu.SetActive(false);
         options.SetActive(false);
         about.SetActive(true);
+        menuLeitura.SetActive(false);
     }
+
 }
