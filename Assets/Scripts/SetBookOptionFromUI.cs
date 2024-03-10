@@ -1,9 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.XR.Interaction.Toolkit;
 
 public class SetBookOptionFromUI : MonoBehaviour
 {
@@ -12,17 +10,20 @@ public class SetBookOptionFromUI : MonoBehaviour
     private void Start()
     {
         bookDropdown.onValueChanged.AddListener(OnBookOptionSelected);
-
-        // Simular escolha de um livro inicial (mocado)
-        //OnBookOptionSelected(0); // 0 representa o primeiro livro na lista (índice 0)
+        Button selectButton = GameObject.Find("SelecionarLivro").GetComponent<Button>(); // Encontrar o botão pelo nome
+        selectButton.onClick.AddListener(OnSelectButtonClicked); // Adicionar um listener para o evento de clique do botão
     }
 
     public void OnBookOptionSelected(int bookIndex)
     {
         // Você pode adicionar aqui a lógica para lidar com a escolha do livro
         Debug.Log("Livro selecionado: " + bookDropdown.options[bookIndex].text);
-        
-        //HideAll();
+    }
+
+    public void OnSelectButtonClicked()
+    {
+        // Esse método será chamado quando o botão for clicado
+        // Adicione aqui a lógica para mudar de cena
         SceneTransitionManager.singleton.GoToSceneAsync(2);
     }
 }

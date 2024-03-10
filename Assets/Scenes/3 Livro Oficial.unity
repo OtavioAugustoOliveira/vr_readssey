@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 15649690}
   - component: {fileID: 15649689}
   m_Layer: 5
-  m_Name: "Avan\xE7ar Pagina"
+  m_Name: nextButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 109918878}
   - component: {fileID: 109918877}
   m_Layer: 5
-  m_Name: Voltar Pagina
+  m_Name: prevButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

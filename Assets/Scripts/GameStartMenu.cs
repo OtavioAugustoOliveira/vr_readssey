@@ -43,12 +43,14 @@ public class GameStartMenu : MonoBehaviour
 
     public void StartGame()
     {
-        HideAll();
-        SceneTransitionManager.singleton.GoToSceneAsync(1);
-        //mainMenu.SetActive(false);
-        //options.SetActive(false);
-        //about.SetActive(false);
-        //menuLeitura.SetActive(true);
+        //OBS: SE FOR ATIVAR ESSA OPÇÃO, DESATIVAR COMPLETAMENTE O MenuLeitura.
+        //HideAll();
+        //SceneTransitionManager.singleton.GoToSceneAsync(1); 
+        
+        mainMenu.SetActive(false);
+        options.SetActive(false);
+        about.SetActive(false);
+        menuLeitura.SetActive(true);
     }
 
     public void HideAll()
