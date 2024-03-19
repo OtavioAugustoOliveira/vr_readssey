@@ -11,6 +11,7 @@ namespace ChristinaCreatesGames.Typography.Book
         [Space] [SerializeField] private TMP_Text leftPagination;
         [SerializeField] private TMP_Text rightPagination;
 
+        [SerializeField] private Material cenario_inicial;
         [SerializeField] private Material cenario_1;
         [SerializeField] private Material cenario_2;
         [SerializeField] private Material cenario_3;
@@ -77,7 +78,11 @@ namespace ChristinaCreatesGames.Typography.Book
 
         private void ChangeSkybox(int page)
         {
-            if (page >= 1 && page <= 9)
+            if (page >= 1 && page <= 3)
+            {
+                RenderSettings.skybox = cenario_inicial;
+            }
+             else if (page >= 5 && page <= 9)
             {
                 RenderSettings.skybox = cenario_1;
             }
