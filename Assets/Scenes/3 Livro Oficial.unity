@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: ba45465a1b3de9940b0d6ccd866fbeed, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 28306f1005180c4499ebcbcd0779f43c, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.53696716, g: 0.472072, b: 0.13228396, a: 1}
+  m_IndirectSpecularColor: {r: 0.27249587, g: 0.2967116, b: 0.4084182, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -333,53 +333,450 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f75d20a5f9c3b44488202471ead683ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: "\"Alice estava come\xE7ando a ficar muito cansada de estar sentada ao
-    lado de sua irm\xE3, sem fazer nada...\",\r\n              \"...quando de repente
-    um Coelho Branco de olhos cor de rosa passou por perto dela, falando alto: 'Oh,
-    meu Deus! Oh, meu Deus! Vou chegar atrasado!'\",\r\n              \"N\xE3o havia
-    nada de muito extraordin\xE1rio nisso, nem Alice achou t\xE3o estranho ouvir
-    o Coelho falar consigo mesmo...\",\r\n              \"...at\xE9 que o Coelho
-    tirou um rel\xF3gio de bolso do colete e olhou para ele apressadamente, e ent\xE3o
-    saiu correndo.\",\r\n              \"Alice levantou-se imediatamente e come\xE7ou
-    a segui-lo, perdendo-o de vista em quest\xE3o de segundos.\",\r\n             
-    \"Ela correu por um tempo sem saber direito para onde estava indo, at\xE9 que
-    finalmente viu o Coelho entrar em uma toca de coelho.\",\r\n              \"Passando
-    por cima de um campo de gramado, Alice encontrou a toca e, sem hesitar, entrou
-    atr\xE1s dele.\"\r\n\r\n\"Ela caiu em um longo buraco, sem saber onde ia parar,
-    at\xE9 que finalmente caiu em um monte de folhas e galhos secos.\",\r\n             
-    \"Depois de um momento para se recuperar do susto, Alice olhou ao redor e percebeu
-    que estava em um lugar muito estranho.\",\r\n              \"Ela estava em um
-    grande sal\xE3o com muitas portas, todas trancadas, exceto uma pequena porta
-    que levava a um jardim fechado.\",\r\n              \"Alice tentou abrir a porta,
-    mas descobriu que a chave estava do outro lado, fora de seu alcance.\",\r\n             
-    \"Ela ent\xE3o viu uma mesa com uma garrafa marcada como 'Beba-me' e uma chave
-    dourada.\",\r\n              \"Alice bebeu a po\xE7\xE3o e encolheu at\xE9 o
-    tamanho de uma pequena boneca de porcelana.\",\r\n              \"Ela pegou a
-    chave e abriu a porta, mas descobriu que agora era muito pequena para passar
-    por ela.\"\r\n\r\n\"Alice estava come\xE7ando a ficar desanimada quando viu um
-    bolo sobre a mesa, com a mensagem 'Coma-me'.\",\r\n              \"Ela comeu
-    o bolo e cresceu tanto que seu corpo tocou o teto da sala.\",\r\n             
-    \"Assustada, ela come\xE7ou a chorar, encolhendo at\xE9 ficar do tamanho original,
-    mas suas l\xE1grimas inundaram a sala.\",\r\n              \"Ela nadou at\xE9
-    a margem de um mar de l\xE1grimas, onde encontrou um grupo de animais, incluindo
-    um Rato, uma Pata, um Dod\xF4 e um Lory.\",\r\n              \"Eles estavam tentando
-    sair da \xE1gua, ent\xE3o Alice ajudou-os a organizar uma 'Corrida de Secagem'.\",\r\n             
-    \"Depois que todos ficaram secos, o Dod\xF4 decidiu que todos mereciam uma premia\xE7\xE3o,
-    mas n\xE3o havia nada para dar.\",\r\n              \"Ent\xE3o, ele prop\xF4s
-    que todos se secassem novamente.\"\r\n\r\n\"Depois da Corrida de Secagem, Alice
-    decidiu seguir em frente e continuar sua busca pelo Coelho Branco.\",\r\n             
-    \"Ela se deparou com uma casa pequena e entrou, encontrando uma sala com uma
-    mesa de ch\xE1 posta.\",\r\n              \"Alice notou uma caixa de cristal
-    com a mensagem 'Coma-me' e dentro dela havia um biscoito.\",\r\n             
-    \"Ela comeu o biscoito e cresceu tanto que n\xE3o conseguia mais sair da casa.\",\r\n             
-    \"Alice olhou ao redor e viu um frasco com a mensagem 'Beba-me'.\",\r\n             
-    \"Ela bebeu o l\xEDquido e encolheu novamente, escapando da casa pela porta dos
-    fundos.\",\r\n              \"Do lado de fora, ela encontrou uma \xE1rvore com
-    uma porta que levava a um jardim encantado.\"\n"
+  content: "<align=center><size=50><color=#B22222>CHAPTER I</color></size></align>\r\n\r\n<align=center><size=36><color=#B22222>Down
+    the Rabbit-Hole</color></size></align>\r\n\r\n  Alice was beginning to get very
+    tired of sitting by her sister\r\non the bank, and of having nothing to do: 
+    once or twice she had\r\npeeped into the book her sister was reading, but it
+    had no\r\npictures or conversations in it, `and what is the use of a book,'\r\nthought
+    Alice `without pictures or conversation?'\r\n\r\n  So she was considering in
+    her own mind (as well as she could,\r\nfor the hot day made her feel very sleepy
+    and stupid), whether\r\nthe pleasure of making a daisy-chain would be worth the
+    trouble\r\nof getting up and picking the daisies, when suddenly a White\r\nRabbit
+    with pink eyes ran close by her.\r\n\r\n  There was nothing so VERY remarkable
+    in that; nor did Alice\r\nthink it so VERY much out of the way to hear the Rabbit
+    say to\r\nitself, `Oh dear!  Oh dear!  I shall be late!'  (when she thought\r\nit
+    over afterwards, it occurred to her that she ought to have\r\nwondered at this,
+    but at the time it all seemed quite natural);\r\nbut when the Rabbit actually
+    TOOK A WATCH OUT OF ITS WAISTCOAT-\r\nPOCKET, and looked at it, and then hurried
+    on, Alice started to\r\nher feet, for it flashed across her mind that she had
+    never\r\nbefore seen a rabbit with either a waistcoat-pocket, or a watch to\r\ntake
+    out of it, and burning with curiosity, she ran across the\r\nfield after it,
+    and fortunately was just in time to see it pop\r\ndown a large rabbit-hole under
+    the hedge.\r\n\r\n  In another moment down went Alice after it, never once\r\nconsidering
+    how in the world she was to get out again.\r\n\r\n  The rabbit-hole went straight
+    on like a tunnel for some way,\r\nand then dipped suddenly down, so suddenly
+    that Alice had not a\r\nmoment to think about stopping herself before she found
+    herself\r\nfalling down a very deep well.\r\n\r\n  Either the well was very deep,
+    or she fell very slowly, for she\r\nhad plenty of time as she went down to look
+    about her and to\r\nwonder what was going to happen next.  First, she tried to
+    look\r\ndown and make out what she was coming to, but it was too dark to\r\nsee
+    anything; then she looked at the sides of the well, and\r\nnoticed that they
+    were filled with cupboards and book-shelves;\r\nhere and there she saw maps and
+    pictures hung upon pegs.  She\r\ntook down a jar from one of the shelves as she
+    passed; it was\r\nlabelled `ORANGE MARMALADE', but to her great disappointment
+    it\r\nwas empty:  she did not like to drop the jar for fear of killing\r\nsomebody,
+    so managed to put it into one of the cupboards as she\r\nfell past it.\r\n\r\n 
+    `Well!' thought Alice to herself, `after such a fall as this, I\r\nshall think
+    nothing of tumbling down stairs!  How brave they'll\r\nall think me at home! 
+    Why, I wouldn't say anything about it,\r\neven if I fell off the top of the house!'
+    (Which was very likely\r\ntrue.)\r\n\r\n  Down, down, down.  Would the fall NEVER
+    come to an end!  `I\r\nwonder how many miles I've fallen by this time?' she said
+    aloud.\r\n`I must be getting somewhere near the centre of the earth.  Let\r\nme
+    see:  that would be four thousand miles down, I think--' (for,\r\nyou see, Alice
+    had learnt several things of this sort in her\r\nlessons in the schoolroom, and
+    though this was not a VERY good\r\nopportunity for showing off her knowledge,
+    as there was no one to\r\nlisten to her, still it was good practice to say it
+    over) `--yes,\r\nthat's about the right distance--but then I wonder what Latitude\r\nor
+    Longitude I've got to?'  (Alice had no idea what Latitude was,\r\nor Longitude
+    either, but thought they were nice grand words to\r\nsay.)\r\n\r\n  Presently
+    she began again.  `I wonder if I shall fall right\r\nTHROUGH the earth!  How
+    funny it'll seem to come out among the\r\npeople that walk with their heads downward! 
+    The Antipathies, I\r\nthink--' (she was rather glad there WAS no one listening,
+    this\r\ntime, as it didn't sound at all the right word) `--but I shall\r\nhave
+    to ask them what the name of the country is, you know.\r\nPlease, Ma'am, is this
+    New Zealand or Australia?' (and she tried\r\nto curtsey as she spoke--fancy CURTSEYING
+    as you're falling\r\nthrough the air!  Do you think you could manage it?)  `And
+    what\r\nan ignorant little girl she'll think me for asking!  No, it'll\r\nnever
+    do to ask:  perhaps I shall see it written up somewhere.'\r\n\r\n  Down, down,
+    down.  There was nothing else to do, so Alice soon\r\nbegan talking again.  `Dinah'll
+    miss me very much to-night, I\r\nshould think!'  (Dinah was the cat.)  `I hope
+    they'll remember\r\nher saucer of milk at tea-time.  Dinah my dear!  I wish you
+    were\r\ndown here with me!  There are no mice in the air, I'm afraid, but\r\nyou
+    might catch a bat, and that's very like a mouse, you know.\r\nBut do cats eat
+    bats, I wonder?'  And here Alice began to get\r\nrather sleepy, and went on saying
+    to herself, in a dreamy sort of\r\nway, `Do cats eat bats?  Do cats eat bats?'
+    and sometimes, `Do\r\nbats eat cats?' for, you see, as she couldn't answer either\r\nquestion,
+    it didn't much matter which way she put it.  She felt\r\nthat she was dozing
+    off, and had just begun to dream that she\r\nwas walking hand in hand with Dinah,
+    and saying to her very\r\nearnestly, `Now, Dinah, tell me the truth:  did you
+    ever eat a\r\nbat?' when suddenly, thump! thump! down she came upon a heap of\r\nsticks
+    and dry leaves, and the fall was over.\r\n\r\n  Alice was not a bit hurt, and
+    she jumped up on to her feet in a\r\nmoment:  she looked up, but it was all dark
+    overhead; before her\r\nwas another long passage, and the White Rabbit was still
+    in\r\nsight, hurrying down it.  There was not a moment to be lost:\r\naway went
+    Alice like the wind, and was just in time to hear it\r\nsay, as it turned a corner,
+    `Oh my ears and whiskers, how late\r\nit's getting!'  She was close behind it
+    when she turned the\r\ncorner, but the Rabbit was no longer to be seen:  she
+    found\r\nherself in a long, low hall, which was lit up by a row of lamps\r\nhanging
+    from the roof.\r\n\r\n  There were doors all round the hall, but they were all
+    locked;\r\nand when Alice had been all the way down one side and up the\r\nother,
+    trying every door, she walked sadly down the middle,\r\nwondering how she was
+    ever to get out again.\r\n\r\n  Suddenly she came upon a little three-legged
+    table, all made of\r\nsolid glass; there was nothing on it except a tiny golden
+    key,\r\nand Alice's first thought was that it might belong to one of the\r\ndoors
+    of the hall; but, alas! either the locks were too large, or\r\nthe key was too
+    small, but at any rate it would not open any of\r\nthem.  However, on the second
+    time round, she came upon a low\r\ncurtain she had not noticed before, and behind
+    it was a little\r\ndoor about fifteen inches high:  she tried the little golden
+    key\r\nin the lock, and to her great delight it fitted!\r\n\r\n  Alice opened
+    the door and found that it led into a small\r\npassage, not much larger than
+    a rat-hole:  she knelt down and\r\nlooked along the passage into the loveliest
+    garden you ever saw.\r\nHow she longed to get out of that dark hall, and wander
+    about\r\namong those beds of bright flowers and those cool fountains, but\r\nshe
+    could not even get her head through the doorway; `and even if\r\nmy head would
+    go through,' thought poor Alice, `it would be of\r\nvery little use without my
+    shoulders.  Oh, how I wish\r\nI could shut up like a telescope!  I think I could,
+    if I only\r\nknow how to begin.'  For, you see, so many out-of-the-way things\r\nhad
+    happened lately, that Alice had begun to think that very few\r\nthings indeed
+    were really impossible.\r\n\r\n  There seemed to be no use in waiting by the
+    little door, so she\r\nwent back to the table, half hoping she might find another
+    key on\r\nit, or at any rate a book of rules for shutting people up like\r\ntelescopes: 
+    this time she found a little bottle on it, (`which\r\ncertainly was not here
+    before,' said Alice,) and round the neck\r\nof the bottle was a paper label,
+    with the words `DRINK ME'\r\nbeautifully printed on it in large letters.\r\n\r\n 
+    It was all very well to say `Drink me,' but the wise little\r\nAlice was not
+    going to do THAT in a hurry.  `No, I'll look\r\nfirst,' she said, `and see whether
+    it's marked \"poison\" or not';\r\nfor she had read several nice little histories
+    about children who\r\nhad got burnt, and eaten up by wild beasts and other unpleasant\r\nthings,
+    all because they WOULD not remember the simple rules\r\ntheir friends had taught
+    them:  such as, that a red-hot poker\r\nwill burn you if you hold it too long;
+    and that if you cut your\r\nfinger VERY deeply with a knife, it usually bleeds;
+    and she had\r\nnever forgotten that, if you drink much from a bottle marked\r\n`poison,'
+    it is almost certain to disagree with you, sooner or\r\nlater.\r\n\r\n  However,
+    this bottle was NOT marked `poison,' so Alice ventured\r\nto taste it, and finding
+    it very nice, (it had, in fact, a sort\r\nof mixed flavour of cherry-tart, custard,
+    pine-apple, roast\r\nturkey, toffee, and hot buttered toast,) she very soon finished\r\nit
+    off.\r\n\r\n     *       *       *       *       *       *       *\r\n\r\n        
+    *       *       *       *       *       *\r\n\r\n     *       *       *      
+    *       *       *       *\r\n\r\n  `What a curious feeling!' said Alice; `I must
+    be shutting up\r\nlike a telescope.'\r\n\r\n  And so it was indeed:  she was
+    now only ten inches high, and\r\nher face brightened up at the thought that she
+    was now the right\r\nsize for going through the little door into that lovely
+    garden.\r\nFirst, however, she waited for a few minutes to see if she was\r\ngoing
+    to shrink any further:  she felt a little nervous about\r\nthis; `for it might
+    end, you know,' said Alice to herself, `in my\r\ngoing out altogether, like a
+    candle.  I wonder what I should be\r\nlike then?'  And she tried to fancy what
+    the flame of a candle is\r\nlike after the candle is blown out, for she could
+    not remember\r\never having seen such a thing.\r\n\r\n  After a while, finding
+    that nothing more happened, she decided\r\non going into the garden at once;
+    but, alas for poor Alice!\r\nwhen she got to the door, she found she had forgotten
+    the\r\nlittle golden key, and when she went back to the table for it,\r\nshe
+    found she could not possibly reach it:  she could see it\r\nquite plainly through
+    the glass, and she tried her best to climb\r\nup one of the legs of the table,
+    but it was too slippery;\r\nand when she had tired herself out with trying,\r\nthe
+    poor little thing sat down and cried.\r\n\r\n  `Come, there's no use in crying
+    like that!' said Alice to\r\nherself, rather sharply; `I advise you to leave
+    off this minute!'\r\nShe generally gave herself very good advice, (though she
+    very\r\nseldom followed it), and sometimes she scolded herself so\r\nseverely
+    as to bring tears into her eyes; and once she remembered\r\ntrying to box her
+    own ears for having cheated herself in a game\r\nof croquet she was playing against
+    herself, for this curious\r\nchild was very fond of pretending to be two people. 
+    `But it's no\r\nuse now,' thought poor Alice, `to pretend to be two people! 
+    Why,\r\nthere's hardly enough of me left to make ONE respectable\r\nperson!'\r\n\r\n 
+    Soon her eye fell on a little glass box that was lying under\r\nthe table:  she
+    opened it, and found in it a very small cake, on\r\nwhich the words `EAT ME'
+    were beautifully marked in currants.\r\n`Well, I'll eat it,' said Alice, `and
+    if it makes me grow larger,\r\nI can reach the key; and if it makes me grow smaller,
+    I can creep\r\nunder the door; so either way I'll get into the garden, and I\r\ndon't
+    care which happens!'\r\n\r\n  She ate a little bit, and said anxiously to herself,
+    `Which\r\nway?  Which way?', holding her hand on the top of her head to\r\nfeel
+    which way it was growing, and she was quite surprised to\r\nfind that she remained
+    the same size:  to be sure, this generally\r\nhappens when one eats cake, but
+    Alice had got so much into the\r\nway of expecting nothing but out-of-the-way
+    things to happen,\r\nthat it seemed quite dull and stupid for life to go on in
+    the\r\ncommon way.\r\n\r\n  So she set to work, and very soon finished off the
+    cake.\r\n\r\n     *       *       *       *       *       *       *\r\n        
+    *       *       *       *       *       *\r\n\r\n\r\n\r\n<align=center><size=50><color=#B22222>CHAPTER
+    II</color></size></align>\r\n\r\n<align=center><size=36><color=#B22222>The Pool
+    of Tears</color></size></align>\r\n\r\n\r\n  `Curiouser and curiouser!' cried
+    Alice (she was so much\r\nsurprised, that for the moment she quite forgot how
+    to speak good\r\nEnglish); `now I'm opening out like the largest telescope that\r\never
+    was!  Good-bye, feet!' (for when she looked down at her\r\nfeet, they seemed
+    to be almost out of sight, they were getting so\r\nfar off).  `Oh, my poor little
+    feet, I wonder who will put on\r\nyour shoes and stockings for you now, dears? 
+    I'm sure _I_ shan't\r\nbe able!  I shall be a great deal too far off to trouble
+    myself\r\nabout you:  you must manage the best way you can; --but I must be\r\nkind
+    to them,' thought Alice, `or perhaps they won't walk the\r\nway I want to go! 
+    Let me see:  I'll give them a new pair of\r\nboots every Christmas.'\r\n\r\n 
+    And she went on planning to herself how she would manage it.\r\n`They must go
+    by the carrier,' she thought; `and how funny it'll\r\nseem, sending presents
+    to one's own feet!  And how odd the\r\ndirections will look!\r\n\r\n           
+    ALICE'S RIGHT FOOT, ESQ.\r\n                HEARTHRUG,\r\n                   
+    NEAR THE FENDER,\r\n                        (WITH ALICE'S LOVE).\r\n\r\nOh dear,
+    what nonsense I'm talking!'\r\n\r\n  Just then her head struck against the roof
+    of the hall:  in\r\nfact she was now more than nine feet high, and she at once
+    took\r\nup the little golden key and hurried off to the garden door.\r\n\r\n 
+    Poor Alice!  It was as much as she could do, lying down on one\r\nside, to look
+    through into the garden with one eye; but to get\r\nthrough was more hopeless
+    than ever:  she sat down and began to\r\ncry again.\r\n\r\n  `You ought to be
+    ashamed of yourself,' said Alice, `a great\r\ngirl like you,' (she might well
+    say this), `to go on crying in\r\nthis way!  Stop this moment, I tell you!' 
+    But she went on all\r\nthe same, shedding gallons of tears, until there was a
+    large pool\r\nall round her, about four inches deep and reaching half down the\r\nhall.\r\n\r\n 
+    After a time she heard a little pattering of feet in the\r\ndistance, and she
+    hastily dried her eyes to see what was coming.\r\nIt was the White Rabbit returning,
+    splendidly dressed, with a\r\npair of white kid gloves in one hand and a large
+    fan in the\r\nother:  he came trotting along in a great hurry, muttering to\r\nhimself
+    as he came, `Oh! the Duchess, the Duchess! Oh! won't she\r\nbe savage if I've
+    kept her waiting!'  Alice felt so desperate\r\nthat she was ready to ask help
+    of any one; so, when the Rabbit\r\ncame near her, she began, in a low, timid
+    voice, `If you please,\r\nsir--'  The Rabbit started violently, dropped the white
+    kid\r\ngloves and the fan, and skurried away into the darkness as hard\r\nas
+    he could go.\r\n\r\n  Alice took up the fan and gloves, and, as the hall was
+    very\r\nhot, she kept fanning herself all the time she went on talking:\r\n`Dear,
+    dear!  How queer everything is to-day!  And yesterday\r\nthings went on just
+    as usual.  I wonder if I've been changed in\r\nthe night?  Let me think:  was
+    I the same when I got up this\r\nmorning?  I almost think I can remember feeling
+    a little\r\ndifferent.  But if I'm not the same, the next question is, Who in\r\nthe
+    world am I?  Ah, THAT'S the great puzzle!'  And she began\r\nthinking over all
+    the children she knew that were of the same age\r\nas herself, to see if she
+    could have been changed for any of\r\nthem.\r\n\r\n  `I'm sure I'm not Ada,'
+    she said, `for her hair goes in such\r\nlong ringlets, and mine doesn't go in
+    ringlets at all; and I'm\r\nsure I can't be Mabel, for I know all sorts of things,
+    and she,\r\noh! she knows such a very little!  Besides, SHE'S she, and I'm I,\r\nand--oh
+    dear, how puzzling it all is!  I'll try if I know all the\r\nthings I used to
+    know.  Let me see:  four times five is twelve,\r\nand four times six is thirteen,
+    and four times seven is--oh dear!\r\nI shall never get to twenty at that rate! 
+    However, the\r\nMultiplication Table doesn't signify:  let's try Geography.\r\nLondon
+    is the capital of Paris, and Paris is the capital of Rome,\r\nand Rome--no, THAT'S
+    all wrong, I'm certain!  I must have been\r\nchanged for Mabel!  I'll try and
+    say \"How doth the little--\"'\r\nand she crossed her hands on her lap as if
+    she were saying lessons,\r\nand began to repeat it, but her voice sounded hoarse
+    and\r\nstrange, and the words did not come the same as they used to do:--\r\n\r\n           
+    `How doth the little crocodile\r\n              Improve his shining tail,\r\n           
+    And pour the waters of the Nile\r\n              On every golden scale!\r\n\r\n           
+    `How cheerfully he seems to grin,\r\n              How neatly spread his claws,\r\n           
+    And welcome little fishes in\r\n              With gently smiling jaws!'\r\n\r\n 
+    `I'm sure those are not the right words,' said poor Alice, and\r\nher eyes filled
+    with tears again as she went on, `I must be Mabel\r\nafter all, and I shall have
+    to go and live in that poky little\r\nhouse, and have next to no toys to play
+    with, and oh! ever so\r\nmany lessons to learn!  No, I've made up my mind about
+    it; if I'm\r\nMabel, I'll stay down here!  It'll be no use their putting their\r\nheads
+    down and saying \"Come up again, dear!\"  I shall only look\r\nup and say \"Who
+    am I then?  Tell me that first, and then, if I\r\nlike being that person, I'll
+    come up:  if not, I'll stay down\r\nhere till I'm somebody else\"--but, oh dear!'
+    cried Alice, with a\r\nsudden burst of tears, `I do wish they WOULD put their
+    heads\r\ndown!  I am so VERY tired of being all alone here!'\r\n\r\n  As she
+    said this she looked down at her hands, and was\r\nsurprised to see that she
+    had put on one of the Rabbit's little\r\nwhite kid gloves while she was talking. 
+    `How CAN I have done\r\nthat?' she thought.  `I must be growing small again.' 
+    She got up\r\nand went to the table to measure herself by it, and found that,\r\nas
+    nearly as she could guess, she was now about two feet high,\r\nand was going
+    on shrinking rapidly:  she soon found out that the\r\ncause of this was the fan
+    she was holding, and she dropped it\r\nhastily, just in time to avoid shrinking
+    away altogether.\r\n\r\n`That WAS a narrow escape!' said Alice, a good deal frightened
+    at\r\nthe sudden change, but very glad to find herself still in\r\nexistence;
+    `and now for the garden!' and she ran with all speed\r\nback to the little door: 
+    but, alas! the little door was shut\r\nagain, and the little golden key was lying
+    on the glass table as\r\nbefore, `and things are worse than ever,' thought the
+    poor child,\r\n`for I never was so small as this before, never!  And I declare\r\nit's
+    too bad, that it is!'\r\n\r\n  As she said these words her foot slipped, and
+    in another\r\nmoment, splash! she was up to her chin in salt water.  Her first\r\nidea
+    was that she had somehow fallen into the sea, `and in that\r\ncase I can go back
+    by railway,' she said to herself.  (Alice had\r\nbeen to the seaside once in
+    her life, and had come to the general\r\nconclusion, that wherever you go to
+    on the English coast you find\r\na number of bathing machines in the sea, some
+    children digging in\r\nthe sand with wooden spades, then a row of lodging houses,
+    and\r\nbehind them a railway station.)  However, she soon made out that\r\nshe
+    was in the pool of tears which she had wept when she was nine\r\nfeet high.\r\n\r\n 
+    `I wish I hadn't cried so much!' said Alice, as she swam about,\r\ntrying to
+    find her way out.  `I shall be punished for it now, I\r\nsuppose, by being drowned
+    in my own tears!  That WILL be a queer\r\nthing, to be sure!  However, everything
+    is queer to-day.'\r\n\r\n  Just then she heard something splashing about in the
+    pool a\r\nlittle way off, and she swam nearer to make out what it was:  at\r\nfirst
+    she thought it must be a walrus or hippopotamus, but then\r\nshe remembered how
+    small she was now, and she soon made out that\r\nit was only a mouse that had
+    slipped in like herself.\r\n\r\n  `Would it be of any use, now,' thought Alice,
+    `to speak to this\r\nmouse?  Everything is so out-of-the-way down here, that
+    I should\r\nthink very likely it can talk:  at any rate, there's no harm in\r\ntrying.' 
+    So she began:  `O Mouse, do you know the way out of\r\nthis pool?  I am very
+    tired of swimming about here, O Mouse!'\r\n(Alice thought this must be the right
+    way of speaking to a mouse:\r\nshe had never done such a thing before, but she
+    remembered having\r\nseen in her brother's Latin Grammar, `A mouse--of a mouse--to
+    a\r\nmouse--a mouse--O mouse!')  The Mouse looked at her rather\r\ninquisitively,
+    and seemed to her to wink with one of its little\r\neyes, but it said nothing.\r\n\r\n 
+    `Perhaps it doesn't understand English,' thought Alice; `I\r\ndaresay it's a
+    French mouse, come over with William the\r\nConqueror.'  (For, with all her knowledge
+    of history, Alice had\r\nno very clear notion how long ago anything had happened.) 
+    So she\r\nbegan again:  `Ou est ma chatte?' which was the first sentence in\r\nher
+    French lesson-book.  The Mouse gave a sudden leap out of the\r\nwater, and seemed
+    to quiver all over with fright.  `Oh, I beg\r\nyour pardon!' cried Alice hastily,
+    afraid that she had hurt the\r\npoor animal's feelings.  `I quite forgot you
+    didn't like cats.'\r\n\r\n  `Not like cats!' cried the Mouse, in a shrill, passionate\r\nvoice. 
+    `Would YOU like cats if you were me?'\r\n\r\n  `Well, perhaps not,' said Alice
+    in a soothing tone:  `don't be\r\nangry about it.  And yet I wish I could show
+    you our cat Dinah:\r\nI think you'd take a fancy to cats if you could only see
+    her.\r\nShe is such a dear quiet thing,' Alice went on, half to herself,\r\nas
+    she swam lazily about in the pool, `and she sits purring so\r\nnicely by the
+    fire, licking her paws and washing her face--and\r\nshe is such a nice soft thing
+    to nurse--and she's such a capital\r\none for catching mice--oh, I beg your pardon!'
+    cried Alice again,\r\nfor this time the Mouse was bristling all over, and she
+    felt\r\ncertain it must be really offended.  `We won't talk about her any\r\nmore
+    if you'd rather not.'\r\n\r\n  `We indeed!' cried the Mouse, who was trembling
+    down to the end\r\nof his tail.  `As if I would talk on such a subject!  Our
+    family\r\nalways HATED cats:  nasty, low, vulgar things!  Don't let me hear\r\nthe
+    name again!'\r\n\r\n  `I won't indeed!' said Alice, in a great hurry to change
+    the\r\nsubject of conversation.  `Are you--are you fond--of--of dogs?'\r\nThe
+    Mouse did not answer, so Alice went on eagerly:  `There is\r\nsuch a nice little
+    dog near our house I should like to show you!\r\nA little bright-eyed terrier,
+    you know, with oh, such long curly\r\nbrown hair!  And it'll fetch things when
+    you throw them, and\r\nit'll sit up and beg for its dinner, and all sorts of
+    things--I\r\ncan't remember half of them--and it belongs to a farmer, you\r\nknow,
+    and he says it's so useful, it's worth a hundred pounds!\r\nHe says it kills
+    all the rats and--oh dear!' cried Alice in a\r\nsorrowful tone, `I'm afraid I've
+    offended it again!'  For the\r\nMouse was swimming away from her as hard as it
+    could go, and\r\nmaking quite a commotion in the pool as it went.\r\n\r\n  So
+    she called softly after it, `Mouse dear!  Do come back\r\nagain, and we won't
+    talk about cats or dogs either, if you don't\r\nlike them!'  When the Mouse heard
+    this, it turned round and swam\r\nslowly back to her:  its face was quite pale
+    (with passion, Alice\r\nthought), and it said in a low trembling voice, `Let
+    us get to\r\nthe shore, and then I'll tell you my history, and you'll\r\nunderstand
+    why it is I hate cats and dogs.'\r\n\r\n  It was high time to go, for the pool
+    was getting quite crowded\r\nwith the birds and animals that had fallen into
+    it:  there were a\r\nDuck and a Dodo, a Lory and an Eaglet, and several other
+    curious\r\ncreatures.  Alice led the way, and the whole party swam to the\r\nshore.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<align=center><size=50><color=#B22222>CHAPTER
+    III</color></size></align>\r\n\r\n<align=center><size=36><color=#B22222>A Caucus-Race
+    and a Long Tale</color></size></align>\r\n\r\n\r\n  They were indeed a queer-looking
+    party that assembled on the\r\nbank--the birds with draggled feathers, the animals
+    with their\r\nfur clinging close to them, and all dripping wet, cross, and\r\nuncomfortable.\r\n\r\n 
+    The first question of course was, how to get dry again:  they\r\nhad a consultation
+    about this, and after a few minutes it seemed\r\nquite natural to Alice to find
+    herself talking familiarly with\r\nthem, as if she had known them all her life. 
+    Indeed, she had\r\nquite a long argument with the Lory, who at last turned sulky,\r\nand
+    would only say, `I am older than you, and must know better';\r\nand this Alice
+    would not allow without knowing how old it was,\r\nand, as the Lory positively
+    refused to tell its age, there was no\r\nmore to be said.\r\n\r\n  At last the
+    Mouse, who seemed to be a person of authority among\r\nthem, called out, `Sit
+    down, all of you, and listen to me!  I'LL\r\nsoon make you dry enough!'  They
+    all sat down at once, in a large\r\nring, with the Mouse in the middle.  Alice
+    kept her eyes\r\nanxiously fixed on it, for she felt sure she would catch a bad\r\ncold
+    if she did not get dry very soon.\r\n\r\n  `Ahem!' said the Mouse with an important
+    air, `are you all ready?\r\nThis is the driest thing I know.  Silence all round,
+    if you please!\r\n\"William the Conqueror, whose cause was favoured by the pope,
+    was\r\nsoon submitted to by the English, who wanted leaders, and had been\r\nof
+    late much accustomed to usurpation and conquest.  Edwin and\r\nMorcar, the earls
+    of Mercia and Northumbria--\"'\r\n\r\n  `Ugh!' said the Lory, with a shiver.\r\n\r\n 
+    `I beg your pardon!' said the Mouse, frowning, but very\r\npolitely:  `Did you
+    speak?'\r\n\r\n  `Not I!' said the Lory hastily.\r\n\r\n  `I thought you did,'
+    said the Mouse.  `--I proceed.  \"Edwin and\r\nMorcar, the earls of Mercia and
+    Northumbria, declared for him:\r\nand even Stigand, the patriotic archbishop
+    of Canterbury, found\r\nit advisable--\"'\r\n\r\n  `Found WHAT?' said the Duck.\r\n\r\n 
+    `Found IT,' the Mouse replied rather crossly:  `of course you\r\nknow what \"it\"
+    means.'\r\n\r\n  `I know what \"it\" means well enough, when I find a thing,'
+    said\r\nthe Duck:  `it's generally a frog or a worm.  The question is,\r\nwhat
+    did the archbishop find?'\r\n\r\n  The Mouse did not notice this question, but
+    hurriedly went on,\r\n`\"--found it advisable to go with Edgar Atheling to meet
+    William\r\nand offer him the crown.  William's conduct at first was\r\nmoderate. 
+    But the insolence of his Normans--\"  How are you\r\ngetting on now, my dear?'
+    it continued, turning to Alice as it\r\nspoke.\r\n\r\n  `As wet as ever,' said
+    Alice in a melancholy tone:  `it doesn't\r\nseem to dry me at all.'\r\n\r\n 
+    `In that case,' said the Dodo solemnly, rising to its feet, `I\r\nmove that the
+    meeting adjourn, for the immediate adoption of more\r\nenergetic remedies--'\r\n\r\n 
+    `Speak English!' said the Eaglet.  `I don't know the meaning of\r\nhalf those
+    long words, and, what's more, I don't believe you do\r\neither!'  And the Eaglet
+    bent down its head to hide a smile:\r\nsome of the other birds tittered audibly.\r\n\r\n 
+    `What I was going to say,' said the Dodo in an offended tone,\r\n`was, that the
+    best thing to get us dry would be a Caucus-race.'\r\n\r\n  `What IS a Caucus-race?'
+    said Alice; not that she wanted much\r\nto know, but the Dodo had paused as if
+    it thought that SOMEBODY\r\nought to speak, and no one else seemed inclined to
+    say anything.\r\n\r\n  `Why,' said the Dodo, `the best way to explain it is to
+    do it.'\r\n(And, as you might like to try the thing yourself, some winter\r\nday,
+    I will tell you how the Dodo managed it.)\r\n\r\n  First it marked out a race-course,
+    in a sort of circle, (`the\r\nexact shape doesn't matter,' it said,) and then
+    all the party\r\nwere placed along the course, here and there.  There was no
+    `One,\r\ntwo, three, and away,' but they began running when they liked,\r\nand
+    left off when they liked, so that it was not easy to know\r\nwhen the race was
+    over.  However, when they had been running half\r\nan hour or so, and were quite
+    dry again, the Dodo suddenly called\r\nout `The race is over!' and they all crowded
+    round it, panting,\r\nand asking, `But who has won?'\r\n\r\n  This question the
+    Dodo could not answer without a great deal of\r\nthought, and it sat for a long
+    time with one finger pressed upon\r\nits forehead (the position in which you
+    usually see Shakespeare,\r\nin the pictures of him), while the rest waited in
+    silence.  At\r\nlast the Dodo said, `EVERYBODY has won, and all must have\r\nprizes.'\r\n\r\n 
+    `But who is to give the prizes?' quite a chorus of voices\r\nasked.\r\n\r\n 
+    `Why, SHE, of course,' said the Dodo, pointing to Alice with\r\none finger; and
+    the whole party at once crowded round her,\r\ncalling out in a confused way,
+    `Prizes! Prizes!'\r\n\r\n  Alice had no idea what to do, and in despair she put
+    her hand\r\nin her pocket, and pulled out a box of comfits, (luckily the salt\r\nwater
+    had not got into it), and handed them round as prizes.\r\nThere was exactly one
+    a-piece all round.\r\n\r\n  `But she must have a prize herself, you know,' said
+    the Mouse.\r\n\r\n  `Of course,' the Dodo replied very gravely.  `What else have\r\nyou
+    got in your pocket?' he went on, turning to Alice.\r\n\r\n  `Only a thimble,'
+    said Alice sadly.\r\n\r\n  `Hand it over here,' said the Dodo.\r\n\r\n  Then
+    they all crowded round her once more, while the Dodo\r\nsolemnly presented the
+    thimble, saying `We beg your acceptance of\r\nthis elegant thimble'; and, when
+    it had finished this short\r\nspeech, they all cheered.\r\n\r\n  Alice thought
+    the whole thing very absurd, but they all looked\r\nso grave that she did not
+    dare to laugh; and, as she could not\r\nthink of anything to say, she simply
+    bowed, and took the thimble,\r\nlooking as solemn as she could.\r\n\r\n  The
+    next thing was to eat the comfits:  this caused some noise\r\nand confusion,
+    as the large birds complained that they could not\r\ntaste theirs, and the small
+    ones choked and had to be patted on\r\nthe back.  However, it was over at last,
+    and they sat down again\r\nin a ring, and begged the Mouse to tell them something
+    more.\r\n\r\n  `You promised to tell me your history, you know,' said Alice,\r\n`and
+    why it is you hate--C and D,' she added in a whisper, half\r\nafraid that it
+    would be offended again.\r\n\r\n  `Mine is a long and a sad tale!' said the Mouse,
+    turning to\r\nAlice, and sighing.\r\n\r\n  `It IS a long tail, certainly,' said
+    Alice, looking down with\r\nwonder at the Mouse's tail; `but why do you call
+    it sad?'  And\r\nshe kept on puzzling about it while the Mouse was speaking,
+    so\r\nthat her idea of the tale was something like this:--\r\n\r\n                   
+    `Fury said to a\r\n                   mouse, That he\r\n                 met
+    in the\r\n               house,\r\n            \"Let us\r\n              both
+    go to\r\n                law:  I will\r\n                  prosecute\r\n                   
+    YOU.  --Come,\r\n                       I'll take no\r\n                       
+    denial; We\r\n                     must have a\r\n                 trial:  For\r\n             
+    really this\r\n           morning I've\r\n          nothing\r\n         to do.\"\r\n          
+    Said the\r\n             mouse to the\r\n               cur, \"Such\r\n                
+    a trial,\r\n                   dear Sir,\r\n                         With\r\n                    
+    no jury\r\n                  or judge,\r\n                would be\r\n             
+    wasting\r\n             our\r\n              breath.\"\r\n               \"I'll
+    be\r\n                 judge, I'll\r\n                   be jury,\"\r\n                        
+    Said\r\n                    cunning\r\n                      old Fury:\r\n                    
+    \"I'll\r\n                      try the\r\n                         whole\r\n                         
+    cause,\r\n                             and\r\n                        condemn\r\n                      
+    you\r\n                      to\r\n                       death.\"'\r\n\r\n\r\n 
+    `You are not attending!' said the Mouse to Alice severely.\r\n`What are you thinking
+    of?'\r\n\r\n  `I beg your pardon,' said Alice very humbly:  `you had got to\r\nthe
+    fifth bend, I think?'\r\n\r\n  `I had NOT!' cried the Mouse, sharply and very
+    angrily.\r\n\r\n  `A knot!' said Alice, always ready to make herself useful,
+    and\r\nlooking anxiously about her.  `Oh, do let me help to undo it!'\r\n\r\n 
+    `I shall do nothing of the sort,' said the Mouse, getting up\r\nand walking away. 
+    `You insult me by talking such nonsense!'\r\n\r\n  `I didn't mean it!' pleaded
+    poor Alice.  `But you're so easily\r\noffended, you know!'\r\n\r\n  The Mouse
+    only growled in reply.\r\n\r\n  `Please come back and finish your story!' Alice
+    called after\r\nit; and the others all joined in chorus, `Yes, please do!' but\r\nthe
+    Mouse only shook its head impatiently, and walked a little\r\nquicker.\r\n\r\n 
+    `What a pity it wouldn't stay!' sighed the Lory, as soon as it\r\nwas quite out
+    of sight; and an old Crab took the opportunity of\r\nsaying to her daughter `Ah,
+    my dear!  Let this be a lesson to you\r\nnever to lose YOUR temper!'  `Hold your
+    tongue, Ma!' said the\r\nyoung Crab, a little snappishly.  `You're enough to
+    try the\r\npatience of an oyster!'\r\n\r\n  `I wish I had our Dinah here, I know
+    I do!' said Alice aloud,\r\naddressing nobody in particular.  `She'd soon fetch
+    it back!'\r\n\r\n  `And who is Dinah, if I might venture to ask the question?'\r\nsaid
+    the Lory.\r\n\r\n  Alice replied eagerly, for she was always ready to talk about\r\nher
+    pet:  `Dinah's our cat.  And she's such a capital one for\r\ncatching mice you
+    can't think!  And oh, I wish you could see her\r\nafter the birds!  Why, she'll
+    eat a little bird as soon as look\r\nat it!'\r\n\r\n  This speech caused a remarkable
+    sensation among the party.\r\nSome of the birds hurried off at once:  one old
+    Magpie began\r\nwrapping itself up very carefully, remarking, `I really must
+    be\r\ngetting home; the night-air doesn't suit my throat!' and a Canary\r\ncalled
+    out in a trembling voice to its children, `Come away, my\r\ndears!  It's high
+    time you were all in bed!'  On various pretexts\r\nthey all moved off, and Alice
+    was soon left alone.\r\n\r\n  `I wish I hadn't mentioned Dinah!' she said to
+    herself in a\r\nmelancholy tone.  `Nobody seems to like her, down here, and I'm\r\nsure
+    she's the best cat in the world!  Oh, my dear Dinah!  I\r\nwonder if I shall
+    ever see you any more!'  And here poor Alice\r\nbegan to cry again, for she felt
+    very lonely and low-spirited.\r\nIn a little while, however, she again heard
+    a little pattering of\r\nfootsteps in the distance, and she looked up eagerly,
+    half hoping\r\nthat the Mouse had changed his mind, and was coming back to\r\nfinish
+    his story."
   leftSide: {fileID: 1298665777}
   rightSide: {fileID: 1949062876}
   leftPagination: {fileID: 658641371}
   rightPagination: {fileID: 1129796935}
+  cenario_1: {fileID: 2100000, guid: 28306f1005180c4499ebcbcd0779f43c, type: 2}
+  cenario_2: {fileID: 2100000, guid: 78477f0dd20f6a44e83689c3dcf55d63, type: 2}
+  cenario_3: {fileID: 2100000, guid: ce3c7250d9a3fe5448a60aab8bfe081e, type: 2}
 --- !u!1 &258838314
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,7 +2020,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -2521, y: 691}
-  m_SizeDelta: {x: 540, y: 600}
+  m_SizeDelta: {x: 540, y: 570}
   m_Pivot: {x: -1.4396489, y: 1.1286511}
 --- !u!222 &1298665776
 CanvasRenderer:
@@ -1653,49 +2050,443 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\"Alice estava come\xE7ando a ficar muito cansada de estar sentada ao
-    lado de sua irm\xE3, sem fazer nada...\",\r\n              \"...quando de repente
-    um Coelho Branco de olhos cor de rosa passou por perto dela, falando alto: 'Oh,
-    meu Deus! Oh, meu Deus! Vou chegar atrasado!'\",\r\n              \"N\xE3o havia
-    nada de muito extraordin\xE1rio nisso, nem Alice achou t\xE3o estranho ouvir
-    o Coelho falar consigo mesmo...\",\r\n              \"...at\xE9 que o Coelho
-    tirou um rel\xF3gio de bolso do colete e olhou para ele apressadamente, e ent\xE3o
-    saiu correndo.\",\r\n              \"Alice levantou-se imediatamente e come\xE7ou
-    a segui-lo, perdendo-o de vista em quest\xE3o de segundos.\",\r\n             
-    \"Ela correu por um tempo sem saber direito para onde estava indo, at\xE9 que
-    finalmente viu o Coelho entrar em uma toca de coelho.\",\r\n              \"Passando
-    por cima de um campo de gramado, Alice encontrou a toca e, sem hesitar, entrou
-    atr\xE1s dele.\"\r\n\r\n\"Ela caiu em um longo buraco, sem saber onde ia parar,
-    at\xE9 que finalmente caiu em um monte de folhas e galhos secos.\",\r\n             
-    \"Depois de um momento para se recuperar do susto, Alice olhou ao redor e percebeu
-    que estava em um lugar muito estranho.\",\r\n              \"Ela estava em um
-    grande sal\xE3o com muitas portas, todas trancadas, exceto uma pequena porta
-    que levava a um jardim fechado.\",\r\n              \"Alice tentou abrir a porta,
-    mas descobriu que a chave estava do outro lado, fora de seu alcance.\",\r\n             
-    \"Ela ent\xE3o viu uma mesa com uma garrafa marcada como 'Beba-me' e uma chave
-    dourada.\",\r\n              \"Alice bebeu a po\xE7\xE3o e encolheu at\xE9 o
-    tamanho de uma pequena boneca de porcelana.\",\r\n              \"Ela pegou a
-    chave e abriu a porta, mas descobriu que agora era muito pequena para passar
-    por ela.\"\r\n\r\n\"Alice estava come\xE7ando a ficar desanimada quando viu um
-    bolo sobre a mesa, com a mensagem 'Coma-me'.\",\r\n              \"Ela comeu
-    o bolo e cresceu tanto que seu corpo tocou o teto da sala.\",\r\n             
-    \"Assustada, ela come\xE7ou a chorar, encolhendo at\xE9 ficar do tamanho original,
-    mas suas l\xE1grimas inundaram a sala.\",\r\n              \"Ela nadou at\xE9
-    a margem de um mar de l\xE1grimas, onde encontrou um grupo de animais, incluindo
-    um Rato, uma Pata, um Dod\xF4 e um Lory.\",\r\n              \"Eles estavam tentando
-    sair da \xE1gua, ent\xE3o Alice ajudou-os a organizar uma 'Corrida de Secagem'.\",\r\n             
-    \"Depois que todos ficaram secos, o Dod\xF4 decidiu que todos mereciam uma premia\xE7\xE3o,
-    mas n\xE3o havia nada para dar.\",\r\n              \"Ent\xE3o, ele prop\xF4s
-    que todos se secassem novamente.\"\r\n\r\n\"Depois da Corrida de Secagem, Alice
-    decidiu seguir em frente e continuar sua busca pelo Coelho Branco.\",\r\n             
-    \"Ela se deparou com uma casa pequena e entrou, encontrando uma sala com uma
-    mesa de ch\xE1 posta.\",\r\n              \"Alice notou uma caixa de cristal
-    com a mensagem 'Coma-me' e dentro dela havia um biscoito.\",\r\n             
-    \"Ela comeu o biscoito e cresceu tanto que n\xE3o conseguia mais sair da casa.\",\r\n             
-    \"Alice olhou ao redor e viu um frasco com a mensagem 'Beba-me'.\",\r\n             
-    \"Ela bebeu o l\xEDquido e encolheu novamente, escapando da casa pela porta dos
-    fundos.\",\r\n              \"Do lado de fora, ela encontrou uma \xE1rvore com
-    uma porta que levava a um jardim encantado.\"\n"
+  m_text: "<align=center><size=50><color=#B22222>CHAPTER I</color></size></align>\r\n\r\n<align=center><size=36><color=#B22222>Down
+    the Rabbit-Hole</color></size></align>\r\n\r\n  Alice was beginning to get very
+    tired of sitting by her sister\r\non the bank, and of having nothing to do: 
+    once or twice she had\r\npeeped into the book her sister was reading, but it
+    had no\r\npictures or conversations in it, `and what is the use of a book,'\r\nthought
+    Alice `without pictures or conversation?'\r\n\r\n  So she was considering in
+    her own mind (as well as she could,\r\nfor the hot day made her feel very sleepy
+    and stupid), whether\r\nthe pleasure of making a daisy-chain would be worth the
+    trouble\r\nof getting up and picking the daisies, when suddenly a White\r\nRabbit
+    with pink eyes ran close by her.\r\n\r\n  There was nothing so VERY remarkable
+    in that; nor did Alice\r\nthink it so VERY much out of the way to hear the Rabbit
+    say to\r\nitself, `Oh dear!  Oh dear!  I shall be late!'  (when she thought\r\nit
+    over afterwards, it occurred to her that she ought to have\r\nwondered at this,
+    but at the time it all seemed quite natural);\r\nbut when the Rabbit actually
+    TOOK A WATCH OUT OF ITS WAISTCOAT-\r\nPOCKET, and looked at it, and then hurried
+    on, Alice started to\r\nher feet, for it flashed across her mind that she had
+    never\r\nbefore seen a rabbit with either a waistcoat-pocket, or a watch to\r\ntake
+    out of it, and burning with curiosity, she ran across the\r\nfield after it,
+    and fortunately was just in time to see it pop\r\ndown a large rabbit-hole under
+    the hedge.\r\n\r\n  In another moment down went Alice after it, never once\r\nconsidering
+    how in the world she was to get out again.\r\n\r\n  The rabbit-hole went straight
+    on like a tunnel for some way,\r\nand then dipped suddenly down, so suddenly
+    that Alice had not a\r\nmoment to think about stopping herself before she found
+    herself\r\nfalling down a very deep well.\r\n\r\n  Either the well was very deep,
+    or she fell very slowly, for she\r\nhad plenty of time as she went down to look
+    about her and to\r\nwonder what was going to happen next.  First, she tried to
+    look\r\ndown and make out what she was coming to, but it was too dark to\r\nsee
+    anything; then she looked at the sides of the well, and\r\nnoticed that they
+    were filled with cupboards and book-shelves;\r\nhere and there she saw maps and
+    pictures hung upon pegs.  She\r\ntook down a jar from one of the shelves as she
+    passed; it was\r\nlabelled `ORANGE MARMALADE', but to her great disappointment
+    it\r\nwas empty:  she did not like to drop the jar for fear of killing\r\nsomebody,
+    so managed to put it into one of the cupboards as she\r\nfell past it.\r\n\r\n 
+    `Well!' thought Alice to herself, `after such a fall as this, I\r\nshall think
+    nothing of tumbling down stairs!  How brave they'll\r\nall think me at home! 
+    Why, I wouldn't say anything about it,\r\neven if I fell off the top of the house!'
+    (Which was very likely\r\ntrue.)\r\n\r\n  Down, down, down.  Would the fall NEVER
+    come to an end!  `I\r\nwonder how many miles I've fallen by this time?' she said
+    aloud.\r\n`I must be getting somewhere near the centre of the earth.  Let\r\nme
+    see:  that would be four thousand miles down, I think--' (for,\r\nyou see, Alice
+    had learnt several things of this sort in her\r\nlessons in the schoolroom, and
+    though this was not a VERY good\r\nopportunity for showing off her knowledge,
+    as there was no one to\r\nlisten to her, still it was good practice to say it
+    over) `--yes,\r\nthat's about the right distance--but then I wonder what Latitude\r\nor
+    Longitude I've got to?'  (Alice had no idea what Latitude was,\r\nor Longitude
+    either, but thought they were nice grand words to\r\nsay.)\r\n\r\n  Presently
+    she began again.  `I wonder if I shall fall right\r\nTHROUGH the earth!  How
+    funny it'll seem to come out among the\r\npeople that walk with their heads downward! 
+    The Antipathies, I\r\nthink--' (she was rather glad there WAS no one listening,
+    this\r\ntime, as it didn't sound at all the right word) `--but I shall\r\nhave
+    to ask them what the name of the country is, you know.\r\nPlease, Ma'am, is this
+    New Zealand or Australia?' (and she tried\r\nto curtsey as she spoke--fancy CURTSEYING
+    as you're falling\r\nthrough the air!  Do you think you could manage it?)  `And
+    what\r\nan ignorant little girl she'll think me for asking!  No, it'll\r\nnever
+    do to ask:  perhaps I shall see it written up somewhere.'\r\n\r\n  Down, down,
+    down.  There was nothing else to do, so Alice soon\r\nbegan talking again.  `Dinah'll
+    miss me very much to-night, I\r\nshould think!'  (Dinah was the cat.)  `I hope
+    they'll remember\r\nher saucer of milk at tea-time.  Dinah my dear!  I wish you
+    were\r\ndown here with me!  There are no mice in the air, I'm afraid, but\r\nyou
+    might catch a bat, and that's very like a mouse, you know.\r\nBut do cats eat
+    bats, I wonder?'  And here Alice began to get\r\nrather sleepy, and went on saying
+    to herself, in a dreamy sort of\r\nway, `Do cats eat bats?  Do cats eat bats?'
+    and sometimes, `Do\r\nbats eat cats?' for, you see, as she couldn't answer either\r\nquestion,
+    it didn't much matter which way she put it.  She felt\r\nthat she was dozing
+    off, and had just begun to dream that she\r\nwas walking hand in hand with Dinah,
+    and saying to her very\r\nearnestly, `Now, Dinah, tell me the truth:  did you
+    ever eat a\r\nbat?' when suddenly, thump! thump! down she came upon a heap of\r\nsticks
+    and dry leaves, and the fall was over.\r\n\r\n  Alice was not a bit hurt, and
+    she jumped up on to her feet in a\r\nmoment:  she looked up, but it was all dark
+    overhead; before her\r\nwas another long passage, and the White Rabbit was still
+    in\r\nsight, hurrying down it.  There was not a moment to be lost:\r\naway went
+    Alice like the wind, and was just in time to hear it\r\nsay, as it turned a corner,
+    `Oh my ears and whiskers, how late\r\nit's getting!'  She was close behind it
+    when she turned the\r\ncorner, but the Rabbit was no longer to be seen:  she
+    found\r\nherself in a long, low hall, which was lit up by a row of lamps\r\nhanging
+    from the roof.\r\n\r\n  There were doors all round the hall, but they were all
+    locked;\r\nand when Alice had been all the way down one side and up the\r\nother,
+    trying every door, she walked sadly down the middle,\r\nwondering how she was
+    ever to get out again.\r\n\r\n  Suddenly she came upon a little three-legged
+    table, all made of\r\nsolid glass; there was nothing on it except a tiny golden
+    key,\r\nand Alice's first thought was that it might belong to one of the\r\ndoors
+    of the hall; but, alas! either the locks were too large, or\r\nthe key was too
+    small, but at any rate it would not open any of\r\nthem.  However, on the second
+    time round, she came upon a low\r\ncurtain she had not noticed before, and behind
+    it was a little\r\ndoor about fifteen inches high:  she tried the little golden
+    key\r\nin the lock, and to her great delight it fitted!\r\n\r\n  Alice opened
+    the door and found that it led into a small\r\npassage, not much larger than
+    a rat-hole:  she knelt down and\r\nlooked along the passage into the loveliest
+    garden you ever saw.\r\nHow she longed to get out of that dark hall, and wander
+    about\r\namong those beds of bright flowers and those cool fountains, but\r\nshe
+    could not even get her head through the doorway; `and even if\r\nmy head would
+    go through,' thought poor Alice, `it would be of\r\nvery little use without my
+    shoulders.  Oh, how I wish\r\nI could shut up like a telescope!  I think I could,
+    if I only\r\nknow how to begin.'  For, you see, so many out-of-the-way things\r\nhad
+    happened lately, that Alice had begun to think that very few\r\nthings indeed
+    were really impossible.\r\n\r\n  There seemed to be no use in waiting by the
+    little door, so she\r\nwent back to the table, half hoping she might find another
+    key on\r\nit, or at any rate a book of rules for shutting people up like\r\ntelescopes: 
+    this time she found a little bottle on it, (`which\r\ncertainly was not here
+    before,' said Alice,) and round the neck\r\nof the bottle was a paper label,
+    with the words `DRINK ME'\r\nbeautifully printed on it in large letters.\r\n\r\n 
+    It was all very well to say `Drink me,' but the wise little\r\nAlice was not
+    going to do THAT in a hurry.  `No, I'll look\r\nfirst,' she said, `and see whether
+    it's marked \"poison\" or not';\r\nfor she had read several nice little histories
+    about children who\r\nhad got burnt, and eaten up by wild beasts and other unpleasant\r\nthings,
+    all because they WOULD not remember the simple rules\r\ntheir friends had taught
+    them:  such as, that a red-hot poker\r\nwill burn you if you hold it too long;
+    and that if you cut your\r\nfinger VERY deeply with a knife, it usually bleeds;
+    and she had\r\nnever forgotten that, if you drink much from a bottle marked\r\n`poison,'
+    it is almost certain to disagree with you, sooner or\r\nlater.\r\n\r\n  However,
+    this bottle was NOT marked `poison,' so Alice ventured\r\nto taste it, and finding
+    it very nice, (it had, in fact, a sort\r\nof mixed flavour of cherry-tart, custard,
+    pine-apple, roast\r\nturkey, toffee, and hot buttered toast,) she very soon finished\r\nit
+    off.\r\n\r\n     *       *       *       *       *       *       *\r\n\r\n        
+    *       *       *       *       *       *\r\n\r\n     *       *       *      
+    *       *       *       *\r\n\r\n  `What a curious feeling!' said Alice; `I must
+    be shutting up\r\nlike a telescope.'\r\n\r\n  And so it was indeed:  she was
+    now only ten inches high, and\r\nher face brightened up at the thought that she
+    was now the right\r\nsize for going through the little door into that lovely
+    garden.\r\nFirst, however, she waited for a few minutes to see if she was\r\ngoing
+    to shrink any further:  she felt a little nervous about\r\nthis; `for it might
+    end, you know,' said Alice to herself, `in my\r\ngoing out altogether, like a
+    candle.  I wonder what I should be\r\nlike then?'  And she tried to fancy what
+    the flame of a candle is\r\nlike after the candle is blown out, for she could
+    not remember\r\never having seen such a thing.\r\n\r\n  After a while, finding
+    that nothing more happened, she decided\r\non going into the garden at once;
+    but, alas for poor Alice!\r\nwhen she got to the door, she found she had forgotten
+    the\r\nlittle golden key, and when she went back to the table for it,\r\nshe
+    found she could not possibly reach it:  she could see it\r\nquite plainly through
+    the glass, and she tried her best to climb\r\nup one of the legs of the table,
+    but it was too slippery;\r\nand when she had tired herself out with trying,\r\nthe
+    poor little thing sat down and cried.\r\n\r\n  `Come, there's no use in crying
+    like that!' said Alice to\r\nherself, rather sharply; `I advise you to leave
+    off this minute!'\r\nShe generally gave herself very good advice, (though she
+    very\r\nseldom followed it), and sometimes she scolded herself so\r\nseverely
+    as to bring tears into her eyes; and once she remembered\r\ntrying to box her
+    own ears for having cheated herself in a game\r\nof croquet she was playing against
+    herself, for this curious\r\nchild was very fond of pretending to be two people. 
+    `But it's no\r\nuse now,' thought poor Alice, `to pretend to be two people! 
+    Why,\r\nthere's hardly enough of me left to make ONE respectable\r\nperson!'\r\n\r\n 
+    Soon her eye fell on a little glass box that was lying under\r\nthe table:  she
+    opened it, and found in it a very small cake, on\r\nwhich the words `EAT ME'
+    were beautifully marked in currants.\r\n`Well, I'll eat it,' said Alice, `and
+    if it makes me grow larger,\r\nI can reach the key; and if it makes me grow smaller,
+    I can creep\r\nunder the door; so either way I'll get into the garden, and I\r\ndon't
+    care which happens!'\r\n\r\n  She ate a little bit, and said anxiously to herself,
+    `Which\r\nway?  Which way?', holding her hand on the top of her head to\r\nfeel
+    which way it was growing, and she was quite surprised to\r\nfind that she remained
+    the same size:  to be sure, this generally\r\nhappens when one eats cake, but
+    Alice had got so much into the\r\nway of expecting nothing but out-of-the-way
+    things to happen,\r\nthat it seemed quite dull and stupid for life to go on in
+    the\r\ncommon way.\r\n\r\n  So she set to work, and very soon finished off the
+    cake.\r\n\r\n     *       *       *       *       *       *       *\r\n        
+    *       *       *       *       *       *\r\n\r\n\r\n\r\n<align=center><size=50><color=#B22222>CHAPTER
+    II</color></size></align>\r\n\r\n<align=center><size=36><color=#B22222>The Pool
+    of Tears</color></size></align>\r\n\r\n\r\n  `Curiouser and curiouser!' cried
+    Alice (she was so much\r\nsurprised, that for the moment she quite forgot how
+    to speak good\r\nEnglish); `now I'm opening out like the largest telescope that\r\never
+    was!  Good-bye, feet!' (for when she looked down at her\r\nfeet, they seemed
+    to be almost out of sight, they were getting so\r\nfar off).  `Oh, my poor little
+    feet, I wonder who will put on\r\nyour shoes and stockings for you now, dears? 
+    I'm sure _I_ shan't\r\nbe able!  I shall be a great deal too far off to trouble
+    myself\r\nabout you:  you must manage the best way you can; --but I must be\r\nkind
+    to them,' thought Alice, `or perhaps they won't walk the\r\nway I want to go! 
+    Let me see:  I'll give them a new pair of\r\nboots every Christmas.'\r\n\r\n 
+    And she went on planning to herself how she would manage it.\r\n`They must go
+    by the carrier,' she thought; `and how funny it'll\r\nseem, sending presents
+    to one's own feet!  And how odd the\r\ndirections will look!\r\n\r\n           
+    ALICE'S RIGHT FOOT, ESQ.\r\n                HEARTHRUG,\r\n                   
+    NEAR THE FENDER,\r\n                        (WITH ALICE'S LOVE).\r\n\r\nOh dear,
+    what nonsense I'm talking!'\r\n\r\n  Just then her head struck against the roof
+    of the hall:  in\r\nfact she was now more than nine feet high, and she at once
+    took\r\nup the little golden key and hurried off to the garden door.\r\n\r\n 
+    Poor Alice!  It was as much as she could do, lying down on one\r\nside, to look
+    through into the garden with one eye; but to get\r\nthrough was more hopeless
+    than ever:  she sat down and began to\r\ncry again.\r\n\r\n  `You ought to be
+    ashamed of yourself,' said Alice, `a great\r\ngirl like you,' (she might well
+    say this), `to go on crying in\r\nthis way!  Stop this moment, I tell you!' 
+    But she went on all\r\nthe same, shedding gallons of tears, until there was a
+    large pool\r\nall round her, about four inches deep and reaching half down the\r\nhall.\r\n\r\n 
+    After a time she heard a little pattering of feet in the\r\ndistance, and she
+    hastily dried her eyes to see what was coming.\r\nIt was the White Rabbit returning,
+    splendidly dressed, with a\r\npair of white kid gloves in one hand and a large
+    fan in the\r\nother:  he came trotting along in a great hurry, muttering to\r\nhimself
+    as he came, `Oh! the Duchess, the Duchess! Oh! won't she\r\nbe savage if I've
+    kept her waiting!'  Alice felt so desperate\r\nthat she was ready to ask help
+    of any one; so, when the Rabbit\r\ncame near her, she began, in a low, timid
+    voice, `If you please,\r\nsir--'  The Rabbit started violently, dropped the white
+    kid\r\ngloves and the fan, and skurried away into the darkness as hard\r\nas
+    he could go.\r\n\r\n  Alice took up the fan and gloves, and, as the hall was
+    very\r\nhot, she kept fanning herself all the time she went on talking:\r\n`Dear,
+    dear!  How queer everything is to-day!  And yesterday\r\nthings went on just
+    as usual.  I wonder if I've been changed in\r\nthe night?  Let me think:  was
+    I the same when I got up this\r\nmorning?  I almost think I can remember feeling
+    a little\r\ndifferent.  But if I'm not the same, the next question is, Who in\r\nthe
+    world am I?  Ah, THAT'S the great puzzle!'  And she began\r\nthinking over all
+    the children she knew that were of the same age\r\nas herself, to see if she
+    could have been changed for any of\r\nthem.\r\n\r\n  `I'm sure I'm not Ada,'
+    she said, `for her hair goes in such\r\nlong ringlets, and mine doesn't go in
+    ringlets at all; and I'm\r\nsure I can't be Mabel, for I know all sorts of things,
+    and she,\r\noh! she knows such a very little!  Besides, SHE'S she, and I'm I,\r\nand--oh
+    dear, how puzzling it all is!  I'll try if I know all the\r\nthings I used to
+    know.  Let me see:  four times five is twelve,\r\nand four times six is thirteen,
+    and four times seven is--oh dear!\r\nI shall never get to twenty at that rate! 
+    However, the\r\nMultiplication Table doesn't signify:  let's try Geography.\r\nLondon
+    is the capital of Paris, and Paris is the capital of Rome,\r\nand Rome--no, THAT'S
+    all wrong, I'm certain!  I must have been\r\nchanged for Mabel!  I'll try and
+    say \"How doth the little--\"'\r\nand she crossed her hands on her lap as if
+    she were saying lessons,\r\nand began to repeat it, but her voice sounded hoarse
+    and\r\nstrange, and the words did not come the same as they used to do:--\r\n\r\n           
+    `How doth the little crocodile\r\n              Improve his shining tail,\r\n           
+    And pour the waters of the Nile\r\n              On every golden scale!\r\n\r\n           
+    `How cheerfully he seems to grin,\r\n              How neatly spread his claws,\r\n           
+    And welcome little fishes in\r\n              With gently smiling jaws!'\r\n\r\n 
+    `I'm sure those are not the right words,' said poor Alice, and\r\nher eyes filled
+    with tears again as she went on, `I must be Mabel\r\nafter all, and I shall have
+    to go and live in that poky little\r\nhouse, and have next to no toys to play
+    with, and oh! ever so\r\nmany lessons to learn!  No, I've made up my mind about
+    it; if I'm\r\nMabel, I'll stay down here!  It'll be no use their putting their\r\nheads
+    down and saying \"Come up again, dear!\"  I shall only look\r\nup and say \"Who
+    am I then?  Tell me that first, and then, if I\r\nlike being that person, I'll
+    come up:  if not, I'll stay down\r\nhere till I'm somebody else\"--but, oh dear!'
+    cried Alice, with a\r\nsudden burst of tears, `I do wish they WOULD put their
+    heads\r\ndown!  I am so VERY tired of being all alone here!'\r\n\r\n  As she
+    said this she looked down at her hands, and was\r\nsurprised to see that she
+    had put on one of the Rabbit's little\r\nwhite kid gloves while she was talking. 
+    `How CAN I have done\r\nthat?' she thought.  `I must be growing small again.' 
+    She got up\r\nand went to the table to measure herself by it, and found that,\r\nas
+    nearly as she could guess, she was now about two feet high,\r\nand was going
+    on shrinking rapidly:  she soon found out that the\r\ncause of this was the fan
+    she was holding, and she dropped it\r\nhastily, just in time to avoid shrinking
+    away altogether.\r\n\r\n`That WAS a narrow escape!' said Alice, a good deal frightened
+    at\r\nthe sudden change, but very glad to find herself still in\r\nexistence;
+    `and now for the garden!' and she ran with all speed\r\nback to the little door: 
+    but, alas! the little door was shut\r\nagain, and the little golden key was lying
+    on the glass table as\r\nbefore, `and things are worse than ever,' thought the
+    poor child,\r\n`for I never was so small as this before, never!  And I declare\r\nit's
+    too bad, that it is!'\r\n\r\n  As she said these words her foot slipped, and
+    in another\r\nmoment, splash! she was up to her chin in salt water.  Her first\r\nidea
+    was that she had somehow fallen into the sea, `and in that\r\ncase I can go back
+    by railway,' she said to herself.  (Alice had\r\nbeen to the seaside once in
+    her life, and had come to the general\r\nconclusion, that wherever you go to
+    on the English coast you find\r\na number of bathing machines in the sea, some
+    children digging in\r\nthe sand with wooden spades, then a row of lodging houses,
+    and\r\nbehind them a railway station.)  However, she soon made out that\r\nshe
+    was in the pool of tears which she had wept when she was nine\r\nfeet high.\r\n\r\n 
+    `I wish I hadn't cried so much!' said Alice, as she swam about,\r\ntrying to
+    find her way out.  `I shall be punished for it now, I\r\nsuppose, by being drowned
+    in my own tears!  That WILL be a queer\r\nthing, to be sure!  However, everything
+    is queer to-day.'\r\n\r\n  Just then she heard something splashing about in the
+    pool a\r\nlittle way off, and she swam nearer to make out what it was:  at\r\nfirst
+    she thought it must be a walrus or hippopotamus, but then\r\nshe remembered how
+    small she was now, and she soon made out that\r\nit was only a mouse that had
+    slipped in like herself.\r\n\r\n  `Would it be of any use, now,' thought Alice,
+    `to speak to this\r\nmouse?  Everything is so out-of-the-way down here, that
+    I should\r\nthink very likely it can talk:  at any rate, there's no harm in\r\ntrying.' 
+    So she began:  `O Mouse, do you know the way out of\r\nthis pool?  I am very
+    tired of swimming about here, O Mouse!'\r\n(Alice thought this must be the right
+    way of speaking to a mouse:\r\nshe had never done such a thing before, but she
+    remembered having\r\nseen in her brother's Latin Grammar, `A mouse--of a mouse--to
+    a\r\nmouse--a mouse--O mouse!')  The Mouse looked at her rather\r\ninquisitively,
+    and seemed to her to wink with one of its little\r\neyes, but it said nothing.\r\n\r\n 
+    `Perhaps it doesn't understand English,' thought Alice; `I\r\ndaresay it's a
+    French mouse, come over with William the\r\nConqueror.'  (For, with all her knowledge
+    of history, Alice had\r\nno very clear notion how long ago anything had happened.) 
+    So she\r\nbegan again:  `Ou est ma chatte?' which was the first sentence in\r\nher
+    French lesson-book.  The Mouse gave a sudden leap out of the\r\nwater, and seemed
+    to quiver all over with fright.  `Oh, I beg\r\nyour pardon!' cried Alice hastily,
+    afraid that she had hurt the\r\npoor animal's feelings.  `I quite forgot you
+    didn't like cats.'\r\n\r\n  `Not like cats!' cried the Mouse, in a shrill, passionate\r\nvoice. 
+    `Would YOU like cats if you were me?'\r\n\r\n  `Well, perhaps not,' said Alice
+    in a soothing tone:  `don't be\r\nangry about it.  And yet I wish I could show
+    you our cat Dinah:\r\nI think you'd take a fancy to cats if you could only see
+    her.\r\nShe is such a dear quiet thing,' Alice went on, half to herself,\r\nas
+    she swam lazily about in the pool, `and she sits purring so\r\nnicely by the
+    fire, licking her paws and washing her face--and\r\nshe is such a nice soft thing
+    to nurse--and she's such a capital\r\none for catching mice--oh, I beg your pardon!'
+    cried Alice again,\r\nfor this time the Mouse was bristling all over, and she
+    felt\r\ncertain it must be really offended.  `We won't talk about her any\r\nmore
+    if you'd rather not.'\r\n\r\n  `We indeed!' cried the Mouse, who was trembling
+    down to the end\r\nof his tail.  `As if I would talk on such a subject!  Our
+    family\r\nalways HATED cats:  nasty, low, vulgar things!  Don't let me hear\r\nthe
+    name again!'\r\n\r\n  `I won't indeed!' said Alice, in a great hurry to change
+    the\r\nsubject of conversation.  `Are you--are you fond--of--of dogs?'\r\nThe
+    Mouse did not answer, so Alice went on eagerly:  `There is\r\nsuch a nice little
+    dog near our house I should like to show you!\r\nA little bright-eyed terrier,
+    you know, with oh, such long curly\r\nbrown hair!  And it'll fetch things when
+    you throw them, and\r\nit'll sit up and beg for its dinner, and all sorts of
+    things--I\r\ncan't remember half of them--and it belongs to a farmer, you\r\nknow,
+    and he says it's so useful, it's worth a hundred pounds!\r\nHe says it kills
+    all the rats and--oh dear!' cried Alice in a\r\nsorrowful tone, `I'm afraid I've
+    offended it again!'  For the\r\nMouse was swimming away from her as hard as it
+    could go, and\r\nmaking quite a commotion in the pool as it went.\r\n\r\n  So
+    she called softly after it, `Mouse dear!  Do come back\r\nagain, and we won't
+    talk about cats or dogs either, if you don't\r\nlike them!'  When the Mouse heard
+    this, it turned round and swam\r\nslowly back to her:  its face was quite pale
+    (with passion, Alice\r\nthought), and it said in a low trembling voice, `Let
+    us get to\r\nthe shore, and then I'll tell you my history, and you'll\r\nunderstand
+    why it is I hate cats and dogs.'\r\n\r\n  It was high time to go, for the pool
+    was getting quite crowded\r\nwith the birds and animals that had fallen into
+    it:  there were a\r\nDuck and a Dodo, a Lory and an Eaglet, and several other
+    curious\r\ncreatures.  Alice led the way, and the whole party swam to the\r\nshore.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<align=center><size=50><color=#B22222>CHAPTER
+    III</color></size></align>\r\n\r\n<align=center><size=36><color=#B22222>A Caucus-Race
+    and a Long Tale</color></size></align>\r\n\r\n\r\n  They were indeed a queer-looking
+    party that assembled on the\r\nbank--the birds with draggled feathers, the animals
+    with their\r\nfur clinging close to them, and all dripping wet, cross, and\r\nuncomfortable.\r\n\r\n 
+    The first question of course was, how to get dry again:  they\r\nhad a consultation
+    about this, and after a few minutes it seemed\r\nquite natural to Alice to find
+    herself talking familiarly with\r\nthem, as if she had known them all her life. 
+    Indeed, she had\r\nquite a long argument with the Lory, who at last turned sulky,\r\nand
+    would only say, `I am older than you, and must know better';\r\nand this Alice
+    would not allow without knowing how old it was,\r\nand, as the Lory positively
+    refused to tell its age, there was no\r\nmore to be said.\r\n\r\n  At last the
+    Mouse, who seemed to be a person of authority among\r\nthem, called out, `Sit
+    down, all of you, and listen to me!  I'LL\r\nsoon make you dry enough!'  They
+    all sat down at once, in a large\r\nring, with the Mouse in the middle.  Alice
+    kept her eyes\r\nanxiously fixed on it, for she felt sure she would catch a bad\r\ncold
+    if she did not get dry very soon.\r\n\r\n  `Ahem!' said the Mouse with an important
+    air, `are you all ready?\r\nThis is the driest thing I know.  Silence all round,
+    if you please!\r\n\"William the Conqueror, whose cause was favoured by the pope,
+    was\r\nsoon submitted to by the English, who wanted leaders, and had been\r\nof
+    late much accustomed to usurpation and conquest.  Edwin and\r\nMorcar, the earls
+    of Mercia and Northumbria--\"'\r\n\r\n  `Ugh!' said the Lory, with a shiver.\r\n\r\n 
+    `I beg your pardon!' said the Mouse, frowning, but very\r\npolitely:  `Did you
+    speak?'\r\n\r\n  `Not I!' said the Lory hastily.\r\n\r\n  `I thought you did,'
+    said the Mouse.  `--I proceed.  \"Edwin and\r\nMorcar, the earls of Mercia and
+    Northumbria, declared for him:\r\nand even Stigand, the patriotic archbishop
+    of Canterbury, found\r\nit advisable--\"'\r\n\r\n  `Found WHAT?' said the Duck.\r\n\r\n 
+    `Found IT,' the Mouse replied rather crossly:  `of course you\r\nknow what \"it\"
+    means.'\r\n\r\n  `I know what \"it\" means well enough, when I find a thing,'
+    said\r\nthe Duck:  `it's generally a frog or a worm.  The question is,\r\nwhat
+    did the archbishop find?'\r\n\r\n  The Mouse did not notice this question, but
+    hurriedly went on,\r\n`\"--found it advisable to go with Edgar Atheling to meet
+    William\r\nand offer him the crown.  William's conduct at first was\r\nmoderate. 
+    But the insolence of his Normans--\"  How are you\r\ngetting on now, my dear?'
+    it continued, turning to Alice as it\r\nspoke.\r\n\r\n  `As wet as ever,' said
+    Alice in a melancholy tone:  `it doesn't\r\nseem to dry me at all.'\r\n\r\n 
+    `In that case,' said the Dodo solemnly, rising to its feet, `I\r\nmove that the
+    meeting adjourn, for the immediate adoption of more\r\nenergetic remedies--'\r\n\r\n 
+    `Speak English!' said the Eaglet.  `I don't know the meaning of\r\nhalf those
+    long words, and, what's more, I don't believe you do\r\neither!'  And the Eaglet
+    bent down its head to hide a smile:\r\nsome of the other birds tittered audibly.\r\n\r\n 
+    `What I was going to say,' said the Dodo in an offended tone,\r\n`was, that the
+    best thing to get us dry would be a Caucus-race.'\r\n\r\n  `What IS a Caucus-race?'
+    said Alice; not that she wanted much\r\nto know, but the Dodo had paused as if
+    it thought that SOMEBODY\r\nought to speak, and no one else seemed inclined to
+    say anything.\r\n\r\n  `Why,' said the Dodo, `the best way to explain it is to
+    do it.'\r\n(And, as you might like to try the thing yourself, some winter\r\nday,
+    I will tell you how the Dodo managed it.)\r\n\r\n  First it marked out a race-course,
+    in a sort of circle, (`the\r\nexact shape doesn't matter,' it said,) and then
+    all the party\r\nwere placed along the course, here and there.  There was no
+    `One,\r\ntwo, three, and away,' but they began running when they liked,\r\nand
+    left off when they liked, so that it was not easy to know\r\nwhen the race was
+    over.  However, when they had been running half\r\nan hour or so, and were quite
+    dry again, the Dodo suddenly called\r\nout `The race is over!' and they all crowded
+    round it, panting,\r\nand asking, `But who has won?'\r\n\r\n  This question the
+    Dodo could not answer without a great deal of\r\nthought, and it sat for a long
+    time with one finger pressed upon\r\nits forehead (the position in which you
+    usually see Shakespeare,\r\nin the pictures of him), while the rest waited in
+    silence.  At\r\nlast the Dodo said, `EVERYBODY has won, and all must have\r\nprizes.'\r\n\r\n 
+    `But who is to give the prizes?' quite a chorus of voices\r\nasked.\r\n\r\n 
+    `Why, SHE, of course,' said the Dodo, pointing to Alice with\r\none finger; and
+    the whole party at once crowded round her,\r\ncalling out in a confused way,
+    `Prizes! Prizes!'\r\n\r\n  Alice had no idea what to do, and in despair she put
+    her hand\r\nin her pocket, and pulled out a box of comfits, (luckily the salt\r\nwater
+    had not got into it), and handed them round as prizes.\r\nThere was exactly one
+    a-piece all round.\r\n\r\n  `But she must have a prize herself, you know,' said
+    the Mouse.\r\n\r\n  `Of course,' the Dodo replied very gravely.  `What else have\r\nyou
+    got in your pocket?' he went on, turning to Alice.\r\n\r\n  `Only a thimble,'
+    said Alice sadly.\r\n\r\n  `Hand it over here,' said the Dodo.\r\n\r\n  Then
+    they all crowded round her once more, while the Dodo\r\nsolemnly presented the
+    thimble, saying `We beg your acceptance of\r\nthis elegant thimble'; and, when
+    it had finished this short\r\nspeech, they all cheered.\r\n\r\n  Alice thought
+    the whole thing very absurd, but they all looked\r\nso grave that she did not
+    dare to laugh; and, as she could not\r\nthink of anything to say, she simply
+    bowed, and took the thimble,\r\nlooking as solemn as she could.\r\n\r\n  The
+    next thing was to eat the comfits:  this caused some noise\r\nand confusion,
+    as the large birds complained that they could not\r\ntaste theirs, and the small
+    ones choked and had to be patted on\r\nthe back.  However, it was over at last,
+    and they sat down again\r\nin a ring, and begged the Mouse to tell them something
+    more.\r\n\r\n  `You promised to tell me your history, you know,' said Alice,\r\n`and
+    why it is you hate--C and D,' she added in a whisper, half\r\nafraid that it
+    would be offended again.\r\n\r\n  `Mine is a long and a sad tale!' said the Mouse,
+    turning to\r\nAlice, and sighing.\r\n\r\n  `It IS a long tail, certainly,' said
+    Alice, looking down with\r\nwonder at the Mouse's tail; `but why do you call
+    it sad?'  And\r\nshe kept on puzzling about it while the Mouse was speaking,
+    so\r\nthat her idea of the tale was something like this:--\r\n\r\n                   
+    `Fury said to a\r\n                   mouse, That he\r\n                 met
+    in the\r\n               house,\r\n            \"Let us\r\n              both
+    go to\r\n                law:  I will\r\n                  prosecute\r\n                   
+    YOU.  --Come,\r\n                       I'll take no\r\n                       
+    denial; We\r\n                     must have a\r\n                 trial:  For\r\n             
+    really this\r\n           morning I've\r\n          nothing\r\n         to do.\"\r\n          
+    Said the\r\n             mouse to the\r\n               cur, \"Such\r\n                
+    a trial,\r\n                   dear Sir,\r\n                         With\r\n                    
+    no jury\r\n                  or judge,\r\n                would be\r\n             
+    wasting\r\n             our\r\n              breath.\"\r\n               \"I'll
+    be\r\n                 judge, I'll\r\n                   be jury,\"\r\n                        
+    Said\r\n                    cunning\r\n                      old Fury:\r\n                    
+    \"I'll\r\n                      try the\r\n                         whole\r\n                         
+    cause,\r\n                             and\r\n                        condemn\r\n                      
+    you\r\n                      to\r\n                       death.\"'\r\n\r\n\r\n 
+    `You are not attending!' said the Mouse to Alice severely.\r\n`What are you thinking
+    of?'\r\n\r\n  `I beg your pardon,' said Alice very humbly:  `you had got to\r\nthe
+    fifth bend, I think?'\r\n\r\n  `I had NOT!' cried the Mouse, sharply and very
+    angrily.\r\n\r\n  `A knot!' said Alice, always ready to make herself useful,
+    and\r\nlooking anxiously about her.  `Oh, do let me help to undo it!'\r\n\r\n 
+    `I shall do nothing of the sort,' said the Mouse, getting up\r\nand walking away. 
+    `You insult me by talking such nonsense!'\r\n\r\n  `I didn't mean it!' pleaded
+    poor Alice.  `But you're so easily\r\noffended, you know!'\r\n\r\n  The Mouse
+    only growled in reply.\r\n\r\n  `Please come back and finish your story!' Alice
+    called after\r\nit; and the others all joined in chorus, `Yes, please do!' but\r\nthe
+    Mouse only shook its head impatiently, and walked a little\r\nquicker.\r\n\r\n 
+    `What a pity it wouldn't stay!' sighed the Lory, as soon as it\r\nwas quite out
+    of sight; and an old Crab took the opportunity of\r\nsaying to her daughter `Ah,
+    my dear!  Let this be a lesson to you\r\nnever to lose YOUR temper!'  `Hold your
+    tongue, Ma!' said the\r\nyoung Crab, a little snappishly.  `You're enough to
+    try the\r\npatience of an oyster!'\r\n\r\n  `I wish I had our Dinah here, I know
+    I do!' said Alice aloud,\r\naddressing nobody in particular.  `She'd soon fetch
+    it back!'\r\n\r\n  `And who is Dinah, if I might venture to ask the question?'\r\nsaid
+    the Lory.\r\n\r\n  Alice replied eagerly, for she was always ready to talk about\r\nher
+    pet:  `Dinah's our cat.  And she's such a capital one for\r\ncatching mice you
+    can't think!  And oh, I wish you could see her\r\nafter the birds!  Why, she'll
+    eat a little bird as soon as look\r\nat it!'\r\n\r\n  This speech caused a remarkable
+    sensation among the party.\r\nSome of the birds hurried off at once:  one old
+    Magpie began\r\nwrapping itself up very carefully, remarking, `I really must
+    be\r\ngetting home; the night-air doesn't suit my throat!' and a Canary\r\ncalled
+    out in a trembling voice to its children, `Come away, my\r\ndears!  It's high
+    time you were all in bed!'  On various pretexts\r\nthey all moved off, and Alice
+    was soon left alone.\r\n\r\n  `I wish I hadn't mentioned Dinah!' she said to
+    herself in a\r\nmelancholy tone.  `Nobody seems to like her, down here, and I'm\r\nsure
+    she's the best cat in the world!  Oh, my dear Dinah!  I\r\nwonder if I shall
+    ever see you any more!'  And here poor Alice\r\nbegan to cry again, for she felt
+    very lonely and low-spirited.\r\nIn a little while, however, she again heard
+    a little pattering of\r\nfootsteps in the distance, and she looked up eagerly,
+    half hoping\r\nthat the Mouse had changed his mind, and was coming back to\r\nfinish
+    his story."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2244,49 +3035,443 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\"Alice estava come\xE7ando a ficar muito cansada de estar sentada ao
-    lado de sua irm\xE3, sem fazer nada...\",\r\n              \"...quando de repente
-    um Coelho Branco de olhos cor de rosa passou por perto dela, falando alto: 'Oh,
-    meu Deus! Oh, meu Deus! Vou chegar atrasado!'\",\r\n              \"N\xE3o havia
-    nada de muito extraordin\xE1rio nisso, nem Alice achou t\xE3o estranho ouvir
-    o Coelho falar consigo mesmo...\",\r\n              \"...at\xE9 que o Coelho
-    tirou um rel\xF3gio de bolso do colete e olhou para ele apressadamente, e ent\xE3o
-    saiu correndo.\",\r\n              \"Alice levantou-se imediatamente e come\xE7ou
-    a segui-lo, perdendo-o de vista em quest\xE3o de segundos.\",\r\n             
-    \"Ela correu por um tempo sem saber direito para onde estava indo, at\xE9 que
-    finalmente viu o Coelho entrar em uma toca de coelho.\",\r\n              \"Passando
-    por cima de um campo de gramado, Alice encontrou a toca e, sem hesitar, entrou
-    atr\xE1s dele.\"\r\n\r\n\"Ela caiu em um longo buraco, sem saber onde ia parar,
-    at\xE9 que finalmente caiu em um monte de folhas e galhos secos.\",\r\n             
-    \"Depois de um momento para se recuperar do susto, Alice olhou ao redor e percebeu
-    que estava em um lugar muito estranho.\",\r\n              \"Ela estava em um
-    grande sal\xE3o com muitas portas, todas trancadas, exceto uma pequena porta
-    que levava a um jardim fechado.\",\r\n              \"Alice tentou abrir a porta,
-    mas descobriu que a chave estava do outro lado, fora de seu alcance.\",\r\n             
-    \"Ela ent\xE3o viu uma mesa com uma garrafa marcada como 'Beba-me' e uma chave
-    dourada.\",\r\n              \"Alice bebeu a po\xE7\xE3o e encolheu at\xE9 o
-    tamanho de uma pequena boneca de porcelana.\",\r\n              \"Ela pegou a
-    chave e abriu a porta, mas descobriu que agora era muito pequena para passar
-    por ela.\"\r\n\r\n\"Alice estava come\xE7ando a ficar desanimada quando viu um
-    bolo sobre a mesa, com a mensagem 'Coma-me'.\",\r\n              \"Ela comeu
-    o bolo e cresceu tanto que seu corpo tocou o teto da sala.\",\r\n             
-    \"Assustada, ela come\xE7ou a chorar, encolhendo at\xE9 ficar do tamanho original,
-    mas suas l\xE1grimas inundaram a sala.\",\r\n              \"Ela nadou at\xE9
-    a margem de um mar de l\xE1grimas, onde encontrou um grupo de animais, incluindo
-    um Rato, uma Pata, um Dod\xF4 e um Lory.\",\r\n              \"Eles estavam tentando
-    sair da \xE1gua, ent\xE3o Alice ajudou-os a organizar uma 'Corrida de Secagem'.\",\r\n             
-    \"Depois que todos ficaram secos, o Dod\xF4 decidiu que todos mereciam uma premia\xE7\xE3o,
-    mas n\xE3o havia nada para dar.\",\r\n              \"Ent\xE3o, ele prop\xF4s
-    que todos se secassem novamente.\"\r\n\r\n\"Depois da Corrida de Secagem, Alice
-    decidiu seguir em frente e continuar sua busca pelo Coelho Branco.\",\r\n             
-    \"Ela se deparou com uma casa pequena e entrou, encontrando uma sala com uma
-    mesa de ch\xE1 posta.\",\r\n              \"Alice notou uma caixa de cristal
-    com a mensagem 'Coma-me' e dentro dela havia um biscoito.\",\r\n             
-    \"Ela comeu o biscoito e cresceu tanto que n\xE3o conseguia mais sair da casa.\",\r\n             
-    \"Alice olhou ao redor e viu um frasco com a mensagem 'Beba-me'.\",\r\n             
-    \"Ela bebeu o l\xEDquido e encolheu novamente, escapando da casa pela porta dos
-    fundos.\",\r\n              \"Do lado de fora, ela encontrou uma \xE1rvore com
-    uma porta que levava a um jardim encantado.\"\n"
+  m_text: "<align=center><size=50><color=#B22222>CHAPTER I</color></size></align>\r\n\r\n<align=center><size=36><color=#B22222>Down
+    the Rabbit-Hole</color></size></align>\r\n\r\n  Alice was beginning to get very
+    tired of sitting by her sister\r\non the bank, and of having nothing to do: 
+    once or twice she had\r\npeeped into the book her sister was reading, but it
+    had no\r\npictures or conversations in it, `and what is the use of a book,'\r\nthought
+    Alice `without pictures or conversation?'\r\n\r\n  So she was considering in
+    her own mind (as well as she could,\r\nfor the hot day made her feel very sleepy
+    and stupid), whether\r\nthe pleasure of making a daisy-chain would be worth the
+    trouble\r\nof getting up and picking the daisies, when suddenly a White\r\nRabbit
+    with pink eyes ran close by her.\r\n\r\n  There was nothing so VERY remarkable
+    in that; nor did Alice\r\nthink it so VERY much out of the way to hear the Rabbit
+    say to\r\nitself, `Oh dear!  Oh dear!  I shall be late!'  (when she thought\r\nit
+    over afterwards, it occurred to her that she ought to have\r\nwondered at this,
+    but at the time it all seemed quite natural);\r\nbut when the Rabbit actually
+    TOOK A WATCH OUT OF ITS WAISTCOAT-\r\nPOCKET, and looked at it, and then hurried
+    on, Alice started to\r\nher feet, for it flashed across her mind that she had
+    never\r\nbefore seen a rabbit with either a waistcoat-pocket, or a watch to\r\ntake
+    out of it, and burning with curiosity, she ran across the\r\nfield after it,
+    and fortunately was just in time to see it pop\r\ndown a large rabbit-hole under
+    the hedge.\r\n\r\n  In another moment down went Alice after it, never once\r\nconsidering
+    how in the world she was to get out again.\r\n\r\n  The rabbit-hole went straight
+    on like a tunnel for some way,\r\nand then dipped suddenly down, so suddenly
+    that Alice had not a\r\nmoment to think about stopping herself before she found
+    herself\r\nfalling down a very deep well.\r\n\r\n  Either the well was very deep,
+    or she fell very slowly, for she\r\nhad plenty of time as she went down to look
+    about her and to\r\nwonder what was going to happen next.  First, she tried to
+    look\r\ndown and make out what she was coming to, but it was too dark to\r\nsee
+    anything; then she looked at the sides of the well, and\r\nnoticed that they
+    were filled with cupboards and book-shelves;\r\nhere and there she saw maps and
+    pictures hung upon pegs.  She\r\ntook down a jar from one of the shelves as she
+    passed; it was\r\nlabelled `ORANGE MARMALADE', but to her great disappointment
+    it\r\nwas empty:  she did not like to drop the jar for fear of killing\r\nsomebody,
+    so managed to put it into one of the cupboards as she\r\nfell past it.\r\n\r\n 
+    `Well!' thought Alice to herself, `after such a fall as this, I\r\nshall think
+    nothing of tumbling down stairs!  How brave they'll\r\nall think me at home! 
+    Why, I wouldn't say anything about it,\r\neven if I fell off the top of the house!'
+    (Which was very likely\r\ntrue.)\r\n\r\n  Down, down, down.  Would the fall NEVER
+    come to an end!  `I\r\nwonder how many miles I've fallen by this time?' she said
+    aloud.\r\n`I must be getting somewhere near the centre of the earth.  Let\r\nme
+    see:  that would be four thousand miles down, I think--' (for,\r\nyou see, Alice
+    had learnt several things of this sort in her\r\nlessons in the schoolroom, and
+    though this was not a VERY good\r\nopportunity for showing off her knowledge,
+    as there was no one to\r\nlisten to her, still it was good practice to say it
+    over) `--yes,\r\nthat's about the right distance--but then I wonder what Latitude\r\nor
+    Longitude I've got to?'  (Alice had no idea what Latitude was,\r\nor Longitude
+    either, but thought they were nice grand words to\r\nsay.)\r\n\r\n  Presently
+    she began again.  `I wonder if I shall fall right\r\nTHROUGH the earth!  How
+    funny it'll seem to come out among the\r\npeople that walk with their heads downward! 
+    The Antipathies, I\r\nthink--' (she was rather glad there WAS no one listening,
+    this\r\ntime, as it didn't sound at all the right word) `--but I shall\r\nhave
+    to ask them what the name of the country is, you know.\r\nPlease, Ma'am, is this
+    New Zealand or Australia?' (and she tried\r\nto curtsey as she spoke--fancy CURTSEYING
+    as you're falling\r\nthrough the air!  Do you think you could manage it?)  `And
+    what\r\nan ignorant little girl she'll think me for asking!  No, it'll\r\nnever
+    do to ask:  perhaps I shall see it written up somewhere.'\r\n\r\n  Down, down,
+    down.  There was nothing else to do, so Alice soon\r\nbegan talking again.  `Dinah'll
+    miss me very much to-night, I\r\nshould think!'  (Dinah was the cat.)  `I hope
+    they'll remember\r\nher saucer of milk at tea-time.  Dinah my dear!  I wish you
+    were\r\ndown here with me!  There are no mice in the air, I'm afraid, but\r\nyou
+    might catch a bat, and that's very like a mouse, you know.\r\nBut do cats eat
+    bats, I wonder?'  And here Alice began to get\r\nrather sleepy, and went on saying
+    to herself, in a dreamy sort of\r\nway, `Do cats eat bats?  Do cats eat bats?'
+    and sometimes, `Do\r\nbats eat cats?' for, you see, as she couldn't answer either\r\nquestion,
+    it didn't much matter which way she put it.  She felt\r\nthat she was dozing
+    off, and had just begun to dream that she\r\nwas walking hand in hand with Dinah,
+    and saying to her very\r\nearnestly, `Now, Dinah, tell me the truth:  did you
+    ever eat a\r\nbat?' when suddenly, thump! thump! down she came upon a heap of\r\nsticks
+    and dry leaves, and the fall was over.\r\n\r\n  Alice was not a bit hurt, and
+    she jumped up on to her feet in a\r\nmoment:  she looked up, but it was all dark
+    overhead; before her\r\nwas another long passage, and the White Rabbit was still
+    in\r\nsight, hurrying down it.  There was not a moment to be lost:\r\naway went
+    Alice like the wind, and was just in time to hear it\r\nsay, as it turned a corner,
+    `Oh my ears and whiskers, how late\r\nit's getting!'  She was close behind it
+    when she turned the\r\ncorner, but the Rabbit was no longer to be seen:  she
+    found\r\nherself in a long, low hall, which was lit up by a row of lamps\r\nhanging
+    from the roof.\r\n\r\n  There were doors all round the hall, but they were all
+    locked;\r\nand when Alice had been all the way down one side and up the\r\nother,
+    trying every door, she walked sadly down the middle,\r\nwondering how she was
+    ever to get out again.\r\n\r\n  Suddenly she came upon a little three-legged
+    table, all made of\r\nsolid glass; there was nothing on it except a tiny golden
+    key,\r\nand Alice's first thought was that it might belong to one of the\r\ndoors
+    of the hall; but, alas! either the locks were too large, or\r\nthe key was too
+    small, but at any rate it would not open any of\r\nthem.  However, on the second
+    time round, she came upon a low\r\ncurtain she had not noticed before, and behind
+    it was a little\r\ndoor about fifteen inches high:  she tried the little golden
+    key\r\nin the lock, and to her great delight it fitted!\r\n\r\n  Alice opened
+    the door and found that it led into a small\r\npassage, not much larger than
+    a rat-hole:  she knelt down and\r\nlooked along the passage into the loveliest
+    garden you ever saw.\r\nHow she longed to get out of that dark hall, and wander
+    about\r\namong those beds of bright flowers and those cool fountains, but\r\nshe
+    could not even get her head through the doorway; `and even if\r\nmy head would
+    go through,' thought poor Alice, `it would be of\r\nvery little use without my
+    shoulders.  Oh, how I wish\r\nI could shut up like a telescope!  I think I could,
+    if I only\r\nknow how to begin.'  For, you see, so many out-of-the-way things\r\nhad
+    happened lately, that Alice had begun to think that very few\r\nthings indeed
+    were really impossible.\r\n\r\n  There seemed to be no use in waiting by the
+    little door, so she\r\nwent back to the table, half hoping she might find another
+    key on\r\nit, or at any rate a book of rules for shutting people up like\r\ntelescopes: 
+    this time she found a little bottle on it, (`which\r\ncertainly was not here
+    before,' said Alice,) and round the neck\r\nof the bottle was a paper label,
+    with the words `DRINK ME'\r\nbeautifully printed on it in large letters.\r\n\r\n 
+    It was all very well to say `Drink me,' but the wise little\r\nAlice was not
+    going to do THAT in a hurry.  `No, I'll look\r\nfirst,' she said, `and see whether
+    it's marked \"poison\" or not';\r\nfor she had read several nice little histories
+    about children who\r\nhad got burnt, and eaten up by wild beasts and other unpleasant\r\nthings,
+    all because they WOULD not remember the simple rules\r\ntheir friends had taught
+    them:  such as, that a red-hot poker\r\nwill burn you if you hold it too long;
+    and that if you cut your\r\nfinger VERY deeply with a knife, it usually bleeds;
+    and she had\r\nnever forgotten that, if you drink much from a bottle marked\r\n`poison,'
+    it is almost certain to disagree with you, sooner or\r\nlater.\r\n\r\n  However,
+    this bottle was NOT marked `poison,' so Alice ventured\r\nto taste it, and finding
+    it very nice, (it had, in fact, a sort\r\nof mixed flavour of cherry-tart, custard,
+    pine-apple, roast\r\nturkey, toffee, and hot buttered toast,) she very soon finished\r\nit
+    off.\r\n\r\n     *       *       *       *       *       *       *\r\n\r\n        
+    *       *       *       *       *       *\r\n\r\n     *       *       *      
+    *       *       *       *\r\n\r\n  `What a curious feeling!' said Alice; `I must
+    be shutting up\r\nlike a telescope.'\r\n\r\n  And so it was indeed:  she was
+    now only ten inches high, and\r\nher face brightened up at the thought that she
+    was now the right\r\nsize for going through the little door into that lovely
+    garden.\r\nFirst, however, she waited for a few minutes to see if she was\r\ngoing
+    to shrink any further:  she felt a little nervous about\r\nthis; `for it might
+    end, you know,' said Alice to herself, `in my\r\ngoing out altogether, like a
+    candle.  I wonder what I should be\r\nlike then?'  And she tried to fancy what
+    the flame of a candle is\r\nlike after the candle is blown out, for she could
+    not remember\r\never having seen such a thing.\r\n\r\n  After a while, finding
+    that nothing more happened, she decided\r\non going into the garden at once;
+    but, alas for poor Alice!\r\nwhen she got to the door, she found she had forgotten
+    the\r\nlittle golden key, and when she went back to the table for it,\r\nshe
+    found she could not possibly reach it:  she could see it\r\nquite plainly through
+    the glass, and she tried her best to climb\r\nup one of the legs of the table,
+    but it was too slippery;\r\nand when she had tired herself out with trying,\r\nthe
+    poor little thing sat down and cried.\r\n\r\n  `Come, there's no use in crying
+    like that!' said Alice to\r\nherself, rather sharply; `I advise you to leave
+    off this minute!'\r\nShe generally gave herself very good advice, (though she
+    very\r\nseldom followed it), and sometimes she scolded herself so\r\nseverely
+    as to bring tears into her eyes; and once she remembered\r\ntrying to box her
+    own ears for having cheated herself in a game\r\nof croquet she was playing against
+    herself, for this curious\r\nchild was very fond of pretending to be two people. 
+    `But it's no\r\nuse now,' thought poor Alice, `to pretend to be two people! 
+    Why,\r\nthere's hardly enough of me left to make ONE respectable\r\nperson!'\r\n\r\n 
+    Soon her eye fell on a little glass box that was lying under\r\nthe table:  she
+    opened it, and found in it a very small cake, on\r\nwhich the words `EAT ME'
+    were beautifully marked in currants.\r\n`Well, I'll eat it,' said Alice, `and
+    if it makes me grow larger,\r\nI can reach the key; and if it makes me grow smaller,
+    I can creep\r\nunder the door; so either way I'll get into the garden, and I\r\ndon't
+    care which happens!'\r\n\r\n  She ate a little bit, and said anxiously to herself,
+    `Which\r\nway?  Which way?', holding her hand on the top of her head to\r\nfeel
+    which way it was growing, and she was quite surprised to\r\nfind that she remained
+    the same size:  to be sure, this generally\r\nhappens when one eats cake, but
+    Alice had got so much into the\r\nway of expecting nothing but out-of-the-way
+    things to happen,\r\nthat it seemed quite dull and stupid for life to go on in
+    the\r\ncommon way.\r\n\r\n  So she set to work, and very soon finished off the
+    cake.\r\n\r\n     *       *       *       *       *       *       *\r\n        
+    *       *       *       *       *       *\r\n\r\n\r\n\r\n<align=center><size=50><color=#B22222>CHAPTER
+    II</color></size></align>\r\n\r\n<align=center><size=36><color=#B22222>The Pool
+    of Tears</color></size></align>\r\n\r\n\r\n  `Curiouser and curiouser!' cried
+    Alice (she was so much\r\nsurprised, that for the moment she quite forgot how
+    to speak good\r\nEnglish); `now I'm opening out like the largest telescope that\r\never
+    was!  Good-bye, feet!' (for when she looked down at her\r\nfeet, they seemed
+    to be almost out of sight, they were getting so\r\nfar off).  `Oh, my poor little
+    feet, I wonder who will put on\r\nyour shoes and stockings for you now, dears? 
+    I'm sure _I_ shan't\r\nbe able!  I shall be a great deal too far off to trouble
+    myself\r\nabout you:  you must manage the best way you can; --but I must be\r\nkind
+    to them,' thought Alice, `or perhaps they won't walk the\r\nway I want to go! 
+    Let me see:  I'll give them a new pair of\r\nboots every Christmas.'\r\n\r\n 
+    And she went on planning to herself how she would manage it.\r\n`They must go
+    by the carrier,' she thought; `and how funny it'll\r\nseem, sending presents
+    to one's own feet!  And how odd the\r\ndirections will look!\r\n\r\n           
+    ALICE'S RIGHT FOOT, ESQ.\r\n                HEARTHRUG,\r\n                   
+    NEAR THE FENDER,\r\n                        (WITH ALICE'S LOVE).\r\n\r\nOh dear,
+    what nonsense I'm talking!'\r\n\r\n  Just then her head struck against the roof
+    of the hall:  in\r\nfact she was now more than nine feet high, and she at once
+    took\r\nup the little golden key and hurried off to the garden door.\r\n\r\n 
+    Poor Alice!  It was as much as she could do, lying down on one\r\nside, to look
+    through into the garden with one eye; but to get\r\nthrough was more hopeless
+    than ever:  she sat down and began to\r\ncry again.\r\n\r\n  `You ought to be
+    ashamed of yourself,' said Alice, `a great\r\ngirl like you,' (she might well
+    say this), `to go on crying in\r\nthis way!  Stop this moment, I tell you!' 
+    But she went on all\r\nthe same, shedding gallons of tears, until there was a
+    large pool\r\nall round her, about four inches deep and reaching half down the\r\nhall.\r\n\r\n 
+    After a time she heard a little pattering of feet in the\r\ndistance, and she
+    hastily dried her eyes to see what was coming.\r\nIt was the White Rabbit returning,
+    splendidly dressed, with a\r\npair of white kid gloves in one hand and a large
+    fan in the\r\nother:  he came trotting along in a great hurry, muttering to\r\nhimself
+    as he came, `Oh! the Duchess, the Duchess! Oh! won't she\r\nbe savage if I've
+    kept her waiting!'  Alice felt so desperate\r\nthat she was ready to ask help
+    of any one; so, when the Rabbit\r\ncame near her, she began, in a low, timid
+    voice, `If you please,\r\nsir--'  The Rabbit started violently, dropped the white
+    kid\r\ngloves and the fan, and skurried away into the darkness as hard\r\nas
+    he could go.\r\n\r\n  Alice took up the fan and gloves, and, as the hall was
+    very\r\nhot, she kept fanning herself all the time she went on talking:\r\n`Dear,
+    dear!  How queer everything is to-day!  And yesterday\r\nthings went on just
+    as usual.  I wonder if I've been changed in\r\nthe night?  Let me think:  was
+    I the same when I got up this\r\nmorning?  I almost think I can remember feeling
+    a little\r\ndifferent.  But if I'm not the same, the next question is, Who in\r\nthe
+    world am I?  Ah, THAT'S the great puzzle!'  And she began\r\nthinking over all
+    the children she knew that were of the same age\r\nas herself, to see if she
+    could have been changed for any of\r\nthem.\r\n\r\n  `I'm sure I'm not Ada,'
+    she said, `for her hair goes in such\r\nlong ringlets, and mine doesn't go in
+    ringlets at all; and I'm\r\nsure I can't be Mabel, for I know all sorts of things,
+    and she,\r\noh! she knows such a very little!  Besides, SHE'S she, and I'm I,\r\nand--oh
+    dear, how puzzling it all is!  I'll try if I know all the\r\nthings I used to
+    know.  Let me see:  four times five is twelve,\r\nand four times six is thirteen,
+    and four times seven is--oh dear!\r\nI shall never get to twenty at that rate! 
+    However, the\r\nMultiplication Table doesn't signify:  let's try Geography.\r\nLondon
+    is the capital of Paris, and Paris is the capital of Rome,\r\nand Rome--no, THAT'S
+    all wrong, I'm certain!  I must have been\r\nchanged for Mabel!  I'll try and
+    say \"How doth the little--\"'\r\nand she crossed her hands on her lap as if
+    she were saying lessons,\r\nand began to repeat it, but her voice sounded hoarse
+    and\r\nstrange, and the words did not come the same as they used to do:--\r\n\r\n           
+    `How doth the little crocodile\r\n              Improve his shining tail,\r\n           
+    And pour the waters of the Nile\r\n              On every golden scale!\r\n\r\n           
+    `How cheerfully he seems to grin,\r\n              How neatly spread his claws,\r\n           
+    And welcome little fishes in\r\n              With gently smiling jaws!'\r\n\r\n 
+    `I'm sure those are not the right words,' said poor Alice, and\r\nher eyes filled
+    with tears again as she went on, `I must be Mabel\r\nafter all, and I shall have
+    to go and live in that poky little\r\nhouse, and have next to no toys to play
+    with, and oh! ever so\r\nmany lessons to learn!  No, I've made up my mind about
+    it; if I'm\r\nMabel, I'll stay down here!  It'll be no use their putting their\r\nheads
+    down and saying \"Come up again, dear!\"  I shall only look\r\nup and say \"Who
+    am I then?  Tell me that first, and then, if I\r\nlike being that person, I'll
+    come up:  if not, I'll stay down\r\nhere till I'm somebody else\"--but, oh dear!'
+    cried Alice, with a\r\nsudden burst of tears, `I do wish they WOULD put their
+    heads\r\ndown!  I am so VERY tired of being all alone here!'\r\n\r\n  As she
+    said this she looked down at her hands, and was\r\nsurprised to see that she
+    had put on one of the Rabbit's little\r\nwhite kid gloves while she was talking. 
+    `How CAN I have done\r\nthat?' she thought.  `I must be growing small again.' 
+    She got up\r\nand went to the table to measure herself by it, and found that,\r\nas
+    nearly as she could guess, she was now about two feet high,\r\nand was going
+    on shrinking rapidly:  she soon found out that the\r\ncause of this was the fan
+    she was holding, and she dropped it\r\nhastily, just in time to avoid shrinking
+    away altogether.\r\n\r\n`That WAS a narrow escape!' said Alice, a good deal frightened
+    at\r\nthe sudden change, but very glad to find herself still in\r\nexistence;
+    `and now for the garden!' and she ran with all speed\r\nback to the little door: 
+    but, alas! the little door was shut\r\nagain, and the little golden key was lying
+    on the glass table as\r\nbefore, `and things are worse than ever,' thought the
+    poor child,\r\n`for I never was so small as this before, never!  And I declare\r\nit's
+    too bad, that it is!'\r\n\r\n  As she said these words her foot slipped, and
+    in another\r\nmoment, splash! she was up to her chin in salt water.  Her first\r\nidea
+    was that she had somehow fallen into the sea, `and in that\r\ncase I can go back
+    by railway,' she said to herself.  (Alice had\r\nbeen to the seaside once in
+    her life, and had come to the general\r\nconclusion, that wherever you go to
+    on the English coast you find\r\na number of bathing machines in the sea, some
+    children digging in\r\nthe sand with wooden spades, then a row of lodging houses,
+    and\r\nbehind them a railway station.)  However, she soon made out that\r\nshe
+    was in the pool of tears which she had wept when she was nine\r\nfeet high.\r\n\r\n 
+    `I wish I hadn't cried so much!' said Alice, as she swam about,\r\ntrying to
+    find her way out.  `I shall be punished for it now, I\r\nsuppose, by being drowned
+    in my own tears!  That WILL be a queer\r\nthing, to be sure!  However, everything
+    is queer to-day.'\r\n\r\n  Just then she heard something splashing about in the
+    pool a\r\nlittle way off, and she swam nearer to make out what it was:  at\r\nfirst
+    she thought it must be a walrus or hippopotamus, but then\r\nshe remembered how
+    small she was now, and she soon made out that\r\nit was only a mouse that had
+    slipped in like herself.\r\n\r\n  `Would it be of any use, now,' thought Alice,
+    `to speak to this\r\nmouse?  Everything is so out-of-the-way down here, that
+    I should\r\nthink very likely it can talk:  at any rate, there's no harm in\r\ntrying.' 
+    So she began:  `O Mouse, do you know the way out of\r\nthis pool?  I am very
+    tired of swimming about here, O Mouse!'\r\n(Alice thought this must be the right
+    way of speaking to a mouse:\r\nshe had never done such a thing before, but she
+    remembered having\r\nseen in her brother's Latin Grammar, `A mouse--of a mouse--to
+    a\r\nmouse--a mouse--O mouse!')  The Mouse looked at her rather\r\ninquisitively,
+    and seemed to her to wink with one of its little\r\neyes, but it said nothing.\r\n\r\n 
+    `Perhaps it doesn't understand English,' thought Alice; `I\r\ndaresay it's a
+    French mouse, come over with William the\r\nConqueror.'  (For, with all her knowledge
+    of history, Alice had\r\nno very clear notion how long ago anything had happened.) 
+    So she\r\nbegan again:  `Ou est ma chatte?' which was the first sentence in\r\nher
+    French lesson-book.  The Mouse gave a sudden leap out of the\r\nwater, and seemed
+    to quiver all over with fright.  `Oh, I beg\r\nyour pardon!' cried Alice hastily,
+    afraid that she had hurt the\r\npoor animal's feelings.  `I quite forgot you
+    didn't like cats.'\r\n\r\n  `Not like cats!' cried the Mouse, in a shrill, passionate\r\nvoice. 
+    `Would YOU like cats if you were me?'\r\n\r\n  `Well, perhaps not,' said Alice
+    in a soothing tone:  `don't be\r\nangry about it.  And yet I wish I could show
+    you our cat Dinah:\r\nI think you'd take a fancy to cats if you could only see
+    her.\r\nShe is such a dear quiet thing,' Alice went on, half to herself,\r\nas
+    she swam lazily about in the pool, `and she sits purring so\r\nnicely by the
+    fire, licking her paws and washing her face--and\r\nshe is such a nice soft thing
+    to nurse--and she's such a capital\r\none for catching mice--oh, I beg your pardon!'
+    cried Alice again,\r\nfor this time the Mouse was bristling all over, and she
+    felt\r\ncertain it must be really offended.  `We won't talk about her any\r\nmore
+    if you'd rather not.'\r\n\r\n  `We indeed!' cried the Mouse, who was trembling
+    down to the end\r\nof his tail.  `As if I would talk on such a subject!  Our
+    family\r\nalways HATED cats:  nasty, low, vulgar things!  Don't let me hear\r\nthe
+    name again!'\r\n\r\n  `I won't indeed!' said Alice, in a great hurry to change
+    the\r\nsubject of conversation.  `Are you--are you fond--of--of dogs?'\r\nThe
+    Mouse did not answer, so Alice went on eagerly:  `There is\r\nsuch a nice little
+    dog near our house I should like to show you!\r\nA little bright-eyed terrier,
+    you know, with oh, such long curly\r\nbrown hair!  And it'll fetch things when
+    you throw them, and\r\nit'll sit up and beg for its dinner, and all sorts of
+    things--I\r\ncan't remember half of them--and it belongs to a farmer, you\r\nknow,
+    and he says it's so useful, it's worth a hundred pounds!\r\nHe says it kills
+    all the rats and--oh dear!' cried Alice in a\r\nsorrowful tone, `I'm afraid I've
+    offended it again!'  For the\r\nMouse was swimming away from her as hard as it
+    could go, and\r\nmaking quite a commotion in the pool as it went.\r\n\r\n  So
+    she called softly after it, `Mouse dear!  Do come back\r\nagain, and we won't
+    talk about cats or dogs either, if you don't\r\nlike them!'  When the Mouse heard
+    this, it turned round and swam\r\nslowly back to her:  its face was quite pale
+    (with passion, Alice\r\nthought), and it said in a low trembling voice, `Let
+    us get to\r\nthe shore, and then I'll tell you my history, and you'll\r\nunderstand
+    why it is I hate cats and dogs.'\r\n\r\n  It was high time to go, for the pool
+    was getting quite crowded\r\nwith the birds and animals that had fallen into
+    it:  there were a\r\nDuck and a Dodo, a Lory and an Eaglet, and several other
+    curious\r\ncreatures.  Alice led the way, and the whole party swam to the\r\nshore.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<align=center><size=50><color=#B22222>CHAPTER
+    III</color></size></align>\r\n\r\n<align=center><size=36><color=#B22222>A Caucus-Race
+    and a Long Tale</color></size></align>\r\n\r\n\r\n  They were indeed a queer-looking
+    party that assembled on the\r\nbank--the birds with draggled feathers, the animals
+    with their\r\nfur clinging close to them, and all dripping wet, cross, and\r\nuncomfortable.\r\n\r\n 
+    The first question of course was, how to get dry again:  they\r\nhad a consultation
+    about this, and after a few minutes it seemed\r\nquite natural to Alice to find
+    herself talking familiarly with\r\nthem, as if she had known them all her life. 
+    Indeed, she had\r\nquite a long argument with the Lory, who at last turned sulky,\r\nand
+    would only say, `I am older than you, and must know better';\r\nand this Alice
+    would not allow without knowing how old it was,\r\nand, as the Lory positively
+    refused to tell its age, there was no\r\nmore to be said.\r\n\r\n  At last the
+    Mouse, who seemed to be a person of authority among\r\nthem, called out, `Sit
+    down, all of you, and listen to me!  I'LL\r\nsoon make you dry enough!'  They
+    all sat down at once, in a large\r\nring, with the Mouse in the middle.  Alice
+    kept her eyes\r\nanxiously fixed on it, for she felt sure she would catch a bad\r\ncold
+    if she did not get dry very soon.\r\n\r\n  `Ahem!' said the Mouse with an important
+    air, `are you all ready?\r\nThis is the driest thing I know.  Silence all round,
+    if you please!\r\n\"William the Conqueror, whose cause was favoured by the pope,
+    was\r\nsoon submitted to by the English, who wanted leaders, and had been\r\nof
+    late much accustomed to usurpation and conquest.  Edwin and\r\nMorcar, the earls
+    of Mercia and Northumbria--\"'\r\n\r\n  `Ugh!' said the Lory, with a shiver.\r\n\r\n 
+    `I beg your pardon!' said the Mouse, frowning, but very\r\npolitely:  `Did you
+    speak?'\r\n\r\n  `Not I!' said the Lory hastily.\r\n\r\n  `I thought you did,'
+    said the Mouse.  `--I proceed.  \"Edwin and\r\nMorcar, the earls of Mercia and
+    Northumbria, declared for him:\r\nand even Stigand, the patriotic archbishop
+    of Canterbury, found\r\nit advisable--\"'\r\n\r\n  `Found WHAT?' said the Duck.\r\n\r\n 
+    `Found IT,' the Mouse replied rather crossly:  `of course you\r\nknow what \"it\"
+    means.'\r\n\r\n  `I know what \"it\" means well enough, when I find a thing,'
+    said\r\nthe Duck:  `it's generally a frog or a worm.  The question is,\r\nwhat
+    did the archbishop find?'\r\n\r\n  The Mouse did not notice this question, but
+    hurriedly went on,\r\n`\"--found it advisable to go with Edgar Atheling to meet
+    William\r\nand offer him the crown.  William's conduct at first was\r\nmoderate. 
+    But the insolence of his Normans--\"  How are you\r\ngetting on now, my dear?'
+    it continued, turning to Alice as it\r\nspoke.\r\n\r\n  `As wet as ever,' said
+    Alice in a melancholy tone:  `it doesn't\r\nseem to dry me at all.'\r\n\r\n 
+    `In that case,' said the Dodo solemnly, rising to its feet, `I\r\nmove that the
+    meeting adjourn, for the immediate adoption of more\r\nenergetic remedies--'\r\n\r\n 
+    `Speak English!' said the Eaglet.  `I don't know the meaning of\r\nhalf those
+    long words, and, what's more, I don't believe you do\r\neither!'  And the Eaglet
+    bent down its head to hide a smile:\r\nsome of the other birds tittered audibly.\r\n\r\n 
+    `What I was going to say,' said the Dodo in an offended tone,\r\n`was, that the
+    best thing to get us dry would be a Caucus-race.'\r\n\r\n  `What IS a Caucus-race?'
+    said Alice; not that she wanted much\r\nto know, but the Dodo had paused as if
+    it thought that SOMEBODY\r\nought to speak, and no one else seemed inclined to
+    say anything.\r\n\r\n  `Why,' said the Dodo, `the best way to explain it is to
+    do it.'\r\n(And, as you might like to try the thing yourself, some winter\r\nday,
+    I will tell you how the Dodo managed it.)\r\n\r\n  First it marked out a race-course,
+    in a sort of circle, (`the\r\nexact shape doesn't matter,' it said,) and then
+    all the party\r\nwere placed along the course, here and there.  There was no
+    `One,\r\ntwo, three, and away,' but they began running when they liked,\r\nand
+    left off when they liked, so that it was not easy to know\r\nwhen the race was
+    over.  However, when they had been running half\r\nan hour or so, and were quite
+    dry again, the Dodo suddenly called\r\nout `The race is over!' and they all crowded
+    round it, panting,\r\nand asking, `But who has won?'\r\n\r\n  This question the
+    Dodo could not answer without a great deal of\r\nthought, and it sat for a long
+    time with one finger pressed upon\r\nits forehead (the position in which you
+    usually see Shakespeare,\r\nin the pictures of him), while the rest waited in
+    silence.  At\r\nlast the Dodo said, `EVERYBODY has won, and all must have\r\nprizes.'\r\n\r\n 
+    `But who is to give the prizes?' quite a chorus of voices\r\nasked.\r\n\r\n 
+    `Why, SHE, of course,' said the Dodo, pointing to Alice with\r\none finger; and
+    the whole party at once crowded round her,\r\ncalling out in a confused way,
+    `Prizes! Prizes!'\r\n\r\n  Alice had no idea what to do, and in despair she put
+    her hand\r\nin her pocket, and pulled out a box of comfits, (luckily the salt\r\nwater
+    had not got into it), and handed them round as prizes.\r\nThere was exactly one
+    a-piece all round.\r\n\r\n  `But she must have a prize herself, you know,' said
+    the Mouse.\r\n\r\n  `Of course,' the Dodo replied very gravely.  `What else have\r\nyou
+    got in your pocket?' he went on, turning to Alice.\r\n\r\n  `Only a thimble,'
+    said Alice sadly.\r\n\r\n  `Hand it over here,' said the Dodo.\r\n\r\n  Then
+    they all crowded round her once more, while the Dodo\r\nsolemnly presented the
+    thimble, saying `We beg your acceptance of\r\nthis elegant thimble'; and, when
+    it had finished this short\r\nspeech, they all cheered.\r\n\r\n  Alice thought
+    the whole thing very absurd, but they all looked\r\nso grave that she did not
+    dare to laugh; and, as she could not\r\nthink of anything to say, she simply
+    bowed, and took the thimble,\r\nlooking as solemn as she could.\r\n\r\n  The
+    next thing was to eat the comfits:  this caused some noise\r\nand confusion,
+    as the large birds complained that they could not\r\ntaste theirs, and the small
+    ones choked and had to be patted on\r\nthe back.  However, it was over at last,
+    and they sat down again\r\nin a ring, and begged the Mouse to tell them something
+    more.\r\n\r\n  `You promised to tell me your history, you know,' said Alice,\r\n`and
+    why it is you hate--C and D,' she added in a whisper, half\r\nafraid that it
+    would be offended again.\r\n\r\n  `Mine is a long and a sad tale!' said the Mouse,
+    turning to\r\nAlice, and sighing.\r\n\r\n  `It IS a long tail, certainly,' said
+    Alice, looking down with\r\nwonder at the Mouse's tail; `but why do you call
+    it sad?'  And\r\nshe kept on puzzling about it while the Mouse was speaking,
+    so\r\nthat her idea of the tale was something like this:--\r\n\r\n                   
+    `Fury said to a\r\n                   mouse, That he\r\n                 met
+    in the\r\n               house,\r\n            \"Let us\r\n              both
+    go to\r\n                law:  I will\r\n                  prosecute\r\n                   
+    YOU.  --Come,\r\n                       I'll take no\r\n                       
+    denial; We\r\n                     must have a\r\n                 trial:  For\r\n             
+    really this\r\n           morning I've\r\n          nothing\r\n         to do.\"\r\n          
+    Said the\r\n             mouse to the\r\n               cur, \"Such\r\n                
+    a trial,\r\n                   dear Sir,\r\n                         With\r\n                    
+    no jury\r\n                  or judge,\r\n                would be\r\n             
+    wasting\r\n             our\r\n              breath.\"\r\n               \"I'll
+    be\r\n                 judge, I'll\r\n                   be jury,\"\r\n                        
+    Said\r\n                    cunning\r\n                      old Fury:\r\n                    
+    \"I'll\r\n                      try the\r\n                         whole\r\n                         
+    cause,\r\n                             and\r\n                        condemn\r\n                      
+    you\r\n                      to\r\n                       death.\"'\r\n\r\n\r\n 
+    `You are not attending!' said the Mouse to Alice severely.\r\n`What are you thinking
+    of?'\r\n\r\n  `I beg your pardon,' said Alice very humbly:  `you had got to\r\nthe
+    fifth bend, I think?'\r\n\r\n  `I had NOT!' cried the Mouse, sharply and very
+    angrily.\r\n\r\n  `A knot!' said Alice, always ready to make herself useful,
+    and\r\nlooking anxiously about her.  `Oh, do let me help to undo it!'\r\n\r\n 
+    `I shall do nothing of the sort,' said the Mouse, getting up\r\nand walking away. 
+    `You insult me by talking such nonsense!'\r\n\r\n  `I didn't mean it!' pleaded
+    poor Alice.  `But you're so easily\r\noffended, you know!'\r\n\r\n  The Mouse
+    only growled in reply.\r\n\r\n  `Please come back and finish your story!' Alice
+    called after\r\nit; and the others all joined in chorus, `Yes, please do!' but\r\nthe
+    Mouse only shook its head impatiently, and walked a little\r\nquicker.\r\n\r\n 
+    `What a pity it wouldn't stay!' sighed the Lory, as soon as it\r\nwas quite out
+    of sight; and an old Crab took the opportunity of\r\nsaying to her daughter `Ah,
+    my dear!  Let this be a lesson to you\r\nnever to lose YOUR temper!'  `Hold your
+    tongue, Ma!' said the\r\nyoung Crab, a little snappishly.  `You're enough to
+    try the\r\npatience of an oyster!'\r\n\r\n  `I wish I had our Dinah here, I know
+    I do!' said Alice aloud,\r\naddressing nobody in particular.  `She'd soon fetch
+    it back!'\r\n\r\n  `And who is Dinah, if I might venture to ask the question?'\r\nsaid
+    the Lory.\r\n\r\n  Alice replied eagerly, for she was always ready to talk about\r\nher
+    pet:  `Dinah's our cat.  And she's such a capital one for\r\ncatching mice you
+    can't think!  And oh, I wish you could see her\r\nafter the birds!  Why, she'll
+    eat a little bird as soon as look\r\nat it!'\r\n\r\n  This speech caused a remarkable
+    sensation among the party.\r\nSome of the birds hurried off at once:  one old
+    Magpie began\r\nwrapping itself up very carefully, remarking, `I really must
+    be\r\ngetting home; the night-air doesn't suit my throat!' and a Canary\r\ncalled
+    out in a trembling voice to its children, `Come away, my\r\ndears!  It's high
+    time you were all in bed!'  On various pretexts\r\nthey all moved off, and Alice
+    was soon left alone.\r\n\r\n  `I wish I hadn't mentioned Dinah!' she said to
+    herself in a\r\nmelancholy tone.  `Nobody seems to like her, down here, and I'm\r\nsure
+    she's the best cat in the world!  Oh, my dear Dinah!  I\r\nwonder if I shall
+    ever see you any more!'  And here poor Alice\r\nbegan to cry again, for she felt
+    very lonely and low-spirited.\r\nIn a little while, however, she again heard
+    a little pattering of\r\nfootsteps in the distance, and she looked up eagerly,
+    half hoping\r\nthat the Mouse had changed his mind, and was coming back to\r\nfinish
+    his story."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2381,7 +3566,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -1608, y: 585}
-  m_SizeDelta: {x: 540, y: 600}
+  m_SizeDelta: {x: 540, y: 570}
   m_Pivot: {x: -1.4396489, y: 1.1286511}
 --- !u!1 &1955614508
 GameObject:

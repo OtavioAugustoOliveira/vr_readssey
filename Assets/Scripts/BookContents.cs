@@ -1,7 +1,6 @@
 using TMPro;
 using UnityEngine;
 
-
 namespace ChristinaCreatesGames.Typography.Book
 {
     public class BookContents : MonoBehaviour
@@ -11,6 +10,10 @@ namespace ChristinaCreatesGames.Typography.Book
         [SerializeField] private TMP_Text rightSide;
         [Space] [SerializeField] private TMP_Text leftPagination;
         [SerializeField] private TMP_Text rightPagination;
+
+        [SerializeField] private Material cenario_1;
+        [SerializeField] private Material cenario_2;
+        [SerializeField] private Material cenario_3;
 
         private void OnValidate()
         {
@@ -42,39 +45,46 @@ namespace ChristinaCreatesGames.Typography.Book
 
         public void PreviousPage()
         {
-            if (leftSide.pageToDisplay < 1)
+            if (leftSide.pageToDisplay <= 1)
             {
-                leftSide.pageToDisplay = 1;
                 return;
             }
 
-            if (leftSide.pageToDisplay - 2 > 1)
-                leftSide.pageToDisplay -= 2;
-            else
-                leftSide.pageToDisplay = 1;
-
+            leftSide.pageToDisplay -= 2;
             rightSide.pageToDisplay = leftSide.pageToDisplay + 1;
 
             UpdatePagination();
+            ChangeSkybox(leftSide.pageToDisplay);
         }
 
         public void NextPage()
         {
             if (rightSide.pageToDisplay >= rightSide.textInfo.pageCount)
-                return;
-
-            if (leftSide.pageToDisplay >= leftSide.textInfo.pageCount - 1)
             {
-                leftSide.pageToDisplay = leftSide.textInfo.pageCount - 1;
-                rightSide.pageToDisplay = leftSide.pageToDisplay + 1;
+                return;
+            }
+
+            leftSide.pageToDisplay += 2;
+            rightSide.pageToDisplay = leftSide.pageToDisplay + 1;
+
+            UpdatePagination();
+            ChangeSkybox(leftSide.pageToDisplay);
+        }
+
+        private void ChangeSkybox(int page)
+        {
+            if (page >= 1 && page <= 5)
+            {
+                RenderSettings.skybox = cenario_1;
+            }
+            else if (page >= 7 && page <= 9)
+            {
+                RenderSettings.skybox = cenario_2;
             }
             else
             {
-                leftSide.pageToDisplay += 2;
-                rightSide.pageToDisplay = leftSide.pageToDisplay + 1;
+                RenderSettings.skybox = cenario_3;
             }
-
-            UpdatePagination();
         }
     }
 }
