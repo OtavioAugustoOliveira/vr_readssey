@@ -15,6 +15,10 @@ namespace ChristinaCreatesGames.Typography.Book
         [SerializeField] private Material cenario_2;
         [SerializeField] private Material cenario_3;
 
+        [SerializeField] private Material cenario_4;
+        [SerializeField] private Material cenario_5;
+        [SerializeField] private Material cenario_6;
+
         private void OnValidate()
         {
             UpdatePagination();
@@ -73,17 +77,29 @@ namespace ChristinaCreatesGames.Typography.Book
 
         private void ChangeSkybox(int page)
         {
-            if (page >= 1 && page <= 5)
+            if (page >= 1 && page <= 9)
             {
                 RenderSettings.skybox = cenario_1;
             }
-            else if (page >= 7 && page <= 9)
+            else if (page >= 11 && page <= 43)
             {
                 RenderSettings.skybox = cenario_2;
             }
-            else
+            else if (page >= 45 && page <= 69)
             {
                 RenderSettings.skybox = cenario_3;
+            }
+            else if (page >= 71 && page <= 85)
+            {
+                RenderSettings.skybox = cenario_4;
+            }
+            else if (page >= 87 && page <= 107)
+            {
+                RenderSettings.skybox = cenario_5;
+            }
+            else
+            {
+                RenderSettings.skybox = cenario_6;
             }
         }
     }
